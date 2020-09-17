@@ -25,7 +25,7 @@ baseurl: ''
 title: 'Cyber Data Analytics Lab'
 description: 'Webpage for the Cyber Data Analytics Lab'
 permalink: pretty
-logo: "assets/TUD.png"
+logo: "https://github.com/tudelft-cda-lab/tudelft-cda-lab.github.io/blob/master/assets/TUD.png"
 
 # Pagination
 paginate: 5
