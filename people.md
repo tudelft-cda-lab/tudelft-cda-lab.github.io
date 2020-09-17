@@ -6,10 +6,16 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 ---
 
-##### Sicco Verwer
+##### Dr. Sicco Verwer
 
-##### Christian Hammerschmidt
+##### Dr. Christian Hammerschmidt
+
+##### Dr. Laurens Bliek
 
 ##### Azqa Nadeem
+
+##### Daniël Vos
+
+##### Sofia Tsoni
 
 ##### ...
