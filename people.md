@@ -1,10 +1,12 @@
 ---
 layout: page
 title: People
+feature_image: "https://picsum.photos/2560/600?image=872"
+
 ---
 
-# Person 1
+### Sicco Verwer
 
-# Person 2
+### Christian Hammerschmidt
 
-# Person 3
+### Azqa Nadeem
