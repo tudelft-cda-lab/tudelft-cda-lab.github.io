@@ -2,7 +2,7 @@
 layout: post
 title: Assurance and certification in secure Multi-party Open Software and Services (AssureMOSS – H2020)
 categories:
-- General
+- Current
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
@@ -11,4 +11,4 @@ Security & privacy assurance, verification and process certification techniques 
 
 Within AssureMOSS, we work model learning techniques in order to uncover networking and application-level problems such as (security) bugs by investigating behavioral differences and visualizing the results for security analysis at run-time.
 
-##### Contact person: Dr. Sicco Verwer
+**Contact person:** Dr. Sicco Verwer
