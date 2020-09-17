@@ -1,0 +1,11 @@
+---
+layout: post
+title: APTA – building automata from software data (NWO Take-Off)
+categories:
+- Current
+feature_image: "https://picsum.photos/2560/600?image=872"
+---
+
+
+
+Vast amounts of data are being collected and logged in computer networks. These data are often monitored for intrusion detection, e.g. by matching known malicious IP-addresses or by searching for specific packet payloads. Suspicious traffic is then investigated manually by security analysts to find new intrusions or malicious activity. However, a security analyst can only investigate a limited amount of traffic, and much of the wealth of this data is therefore completely ignored. We start a business (APTA) to analyze this data based on our studies on state machine learning. Although other machine learning methods have been applied to network logs, none of these provides a single overview of the software system that is easy to make sense of by their analysts. APTA not only provides a means of classifying new logs into normal and error categories, but also a means of analyzing these logs and uncovering the root cause of these errors, and thus fixing them.

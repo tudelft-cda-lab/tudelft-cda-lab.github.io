@@ -6,9 +6,9 @@ feature_text: |
   ## TUD Cyber Data Analytics Lab
 ---
 
-Welcome to the Cyber Data Analytics lab. We attempt to turn black-box ML into white-boxes.  
+Welcome to the Cyber Data Analytics lab. We like to turn black-box ML into white-boxes.  
 
 
 ## Recent News
 
-There isn't much going on here yet, but watch this space
+- We have a new website!
