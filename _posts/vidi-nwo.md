@@ -2,7 +2,7 @@
 layout: post
 title: Learning state machines from infrequent software traces (VIDI – TTW)
 categories:
-- Current
+- General
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
