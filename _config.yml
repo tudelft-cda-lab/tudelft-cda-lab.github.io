@@ -25,7 +25,7 @@ baseurl: ''
 title: 'Cyber Data Analytics Lab'
 description: 'Webpage for the Cyber Data Analytics Lab'
 permalink: pretty
-logo: "https://github.com/tudelft-cda-lab/tudelft-cda-lab.github.io/blob/master/assets/TUD.png"
+logo: "assets/TUD.png"
 
 # Pagination
 paginate: 5
@@ -56,10 +56,4 @@ collections:
     feature_text: |
       Welcome to my blog
     feature_image: "https://picsum.photos/2560/600?image=866"
-  people:
-    title: People
-    output: true
-    description: "Lab members"
-    feature_text: |
-      Members and Alumni
-    feature_image: "https://picsum.photos/2560/600?image=866"
+

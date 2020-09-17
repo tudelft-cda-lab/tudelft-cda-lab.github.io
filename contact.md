@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About this website
+title: Contact information
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+If you're inquiring about open positions, send us an email at XXX@XXX.xx
