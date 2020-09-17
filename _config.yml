@@ -37,8 +37,8 @@ navigation_header:
   url: /
 - title: People
   url: /people/
-- title: projects
-  url: /blog/
+- title: Projects
+  url: /projects/
 - title: Contact
   url: /contact/
 
