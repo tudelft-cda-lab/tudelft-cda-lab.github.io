@@ -34,7 +34,7 @@ paginate_path: projects/page:num
 # Header nav
 navigation_header:
 - title: Home
-  url: /home/
+  url: /
 - title: People
   url: /people/
 - title: Projects
