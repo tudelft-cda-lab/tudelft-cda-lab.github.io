@@ -29,7 +29,7 @@ logo: "/assets/TUD.png"
 
 # Pagination
 paginate: 5
-paginate_path: projects/page:num
+paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
@@ -38,7 +38,7 @@ navigation_header:
 - title: People
   url: /people/
 - title: Projects
-  url: /projects/
+  url: /blog/
 - title: Contact
   url: /contact/
 
