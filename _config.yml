@@ -86,74 +86,90 @@ collections:
     title: Research projects
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
-  
+ 
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# Update this collecting for adding/removing roles 
 roles:
 - r: leader
 - r: postdoc
 - r: phd
 - r: external  
 
-# Team names, titles and social links
+# Update this collection for adding/removing people
 people:
 - name: Sicco Verwer
-  pic: m-1
+  pic: male-no # Picture file name
   role: leader
-  position: Lab Head
+  position: Assistant Professor (PI)
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: https://twitter.com/siccoverwer
     - title: globe
-      url: https://google.com/
+      url: https://www.tudelft.nl/staff/s.e.verwer/
 
 - name: Christian Hammerschmidt
-  pic: m-2
+  pic: male-no
   role: postdoc
-  position: Post Doc
+  position: Postdoctoral Researcher
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: https://twitter.com/chrshmmmr
     - title: globe
-      url: https://google.com/
+      url: https://www.tudelft.nl/en/staff/c.a.hammerschmidt/
       
 - name: Laurens Bliek
-  pic: m-3
+  pic: male-no
   role: postdoc
-  position: Post Doc
+  position: Postdoctoral Researcher
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: #
     - title: globe
-      url: https://google.com/
+      url: https://www.tudelft.nl/en/staff/l.bliek/
     
 - name: Azqa Nadeem
-  pic: f-1
+  pic: female-no
   role: phd
-  position: PhD candidate
+  position: PhD Candidate
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: https://twitter.com/azqa_nadeem
     - title: globe
-      url: https://google.com/
+      url: https://www.tudelft.nl/staff/azqa.nadeem/
       
 - name: Daniel Vos
-  pic: m-4
+  pic: male-no
   role: phd
-  position: PhD candidate
+  position: PhD Candidate
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: #
     - title: globe
-      url: https://google.com/
+      url: #
+      
+- name: Mark Patrick Roeling
+  pic: male-no
+  role: phd
+  position: PhD Candidate
+  social:
+    - title: twitter
+      url: https://twitter.com/mproeling
+    - title: globe
+      url: #
       
 - name: Sofia Tsoni
-  pic: f-1
+  pic: female-no
   role: external
   position: Developer
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: #
     - title: globe
-      url: https://google.com/
+      url: #
+
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
 
 # 6. Jekyll collections settings
 defaults: 
