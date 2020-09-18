@@ -91,6 +91,7 @@ collections:
 people:
 - name: Sicco Verwer
   pic: m-1
+  role: leader
   position: Lab Head
   social:
     - title: twitter
@@ -100,6 +101,7 @@ people:
 
 - name: Christian Hammerschmidt
   pic: m-2
+  role: postdoc
   position: Post Doc
   social:
     - title: twitter
@@ -109,6 +111,7 @@ people:
       
 - name: Laurens Bliek
   pic: m-3
+  role: postdoc
   position: Post Doc
   social:
     - title: twitter
@@ -118,6 +121,7 @@ people:
     
 - name: Azqa Nadeem
   pic: f-1
+  role: phd
   position: PhD candidate
   social:
     - title: twitter
@@ -127,6 +131,7 @@ people:
       
 - name: Daniel Vos
   pic: m-4
+  role: phd
   position: PhD candidate
   social:
     - title: twitter
@@ -136,6 +141,7 @@ people:
       
 - name: Sofia Tsoni
   pic: f-1
+  role: external
   position: Developer
   social:
     - title: twitter
