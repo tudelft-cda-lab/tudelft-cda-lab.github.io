@@ -30,7 +30,7 @@
       <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
     {% endif %}
 	
-	
+	<link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 	
     {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
