@@ -297,14 +297,13 @@ section {
     padding: 100px 0;
 }
 
-h2.section-heading,
-section h2.section-heading {
+h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
-section h3.section-subheading {
+h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
