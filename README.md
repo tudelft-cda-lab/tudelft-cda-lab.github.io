@@ -1,5 +1,6 @@
 # TUD Cyber Data Analytics Lab
 
+This is the repository for the CDA lab's website. It is deployed using `github.pages` and borrows open source themes. 
 
 ### Usage
 
