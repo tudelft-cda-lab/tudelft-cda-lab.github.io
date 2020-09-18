@@ -3,5 +3,11 @@
 
 ### Usage
 
-1. To add/remove members of the lab, edit the `people` collection in `_config.yaml`.
-2. To add/remove potential roles, edit the `roles` collection in `_config.yaml`.
+#### Adding a new member
+1. Add the member's picture in the `/assets/people/` folder.
+2. Add the member's information (name, position, etc.) in the `people` collection in `_config.yml`.
+3. Fill the filename in `pic` field,
+4. and assign them a role from the given `roles` collection. You can even add a new role.
+5. Optionally, also add the links to their personal webpage.
+6. Commit the changes.
+
