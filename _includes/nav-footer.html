@@ -3,8 +3,14 @@
   <ul class="list list--nav">
     {% for item in site.navigation_footer %}
 
+      {% if item.url contains '://' %}
+        {% assign url = item.url %}
+      {% else %}
+        {% assign url = item.url | relative_url %}
+      {% endif %}
 
-      <small class="small"><a href="{{ item.url }}">{{ item.title }}</a></small>
+        <small class="small"><a href="{{ url }}">{{ item.title }}</a></small>
+      </li>
     {% endfor %}
   </ul>
 </nav>
