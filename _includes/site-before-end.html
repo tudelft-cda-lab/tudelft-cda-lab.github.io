@@ -13,3 +13,10 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+<script >
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
