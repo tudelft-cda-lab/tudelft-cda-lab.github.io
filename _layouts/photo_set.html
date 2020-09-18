@@ -4,15 +4,12 @@ layout: default
 
 {% assign num = page.photos.size %}
 
-<h1>{{ page.title }}</h1>
 
 <ul>
   {% for i in (1..num) %}
   <li>
-    <img src="{{ site.baseurl }}/assets/people/{{ page.photos.set }}-{{ i }}.png">
+    <img src="{{ site.baseurl }}/assets/people/{{ page.photos.set }}-{{ i }}.png" height='250'> <br/>
+	<h4> {{ page.photos.set }}-{{ i }} </h4> </hr>
   </li>
   {% endfor %}
 </ul>
-<div>
-  <a href="{{ site.baseurl }}/google.com/">Blah</a>
-</div>

@@ -6,7 +6,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 photos:
     set: m
-    size: 3
+    size: 4
 ---
 
 ##### Dr. Sicco Verwer
