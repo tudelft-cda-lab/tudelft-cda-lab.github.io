@@ -6,13 +6,16 @@ layout: default
 
 <main class="main  container">
 
-<article class="content"> 
-
+<div class="content">
+<!-- Team Section -->
 	<h2 class="section-heading">{{ page.title }}</h2>
 
-	{{ content }}
+<section class="section  typeset">
 
-</article>
+	{{ content }}
+</section>
+
+</div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
