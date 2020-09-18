@@ -36,11 +36,12 @@ navigation_header:
 - title: Home
   url: /
 - title: People
-  url: /people/
+  url: /photos/
 - title: Projects
   url: /projects/
 - title: Contact
   url: /contact/
+
 
 # Footer nav
 navigation_footer:
