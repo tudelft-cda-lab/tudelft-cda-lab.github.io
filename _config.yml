@@ -99,7 +99,7 @@ roles:
 # Update this collection for adding/removing people
 people:
 - name: Sicco Verwer
-  pic: male-no # Picture file name
+  pic: male-no.png # Picture file name
   role: leader
   position: Assistant Professor (PI)
   social:
@@ -109,7 +109,7 @@ people:
       url: https://www.tudelft.nl/staff/s.e.verwer/
 
 - name: Christian Hammerschmidt
-  pic: male-no
+  pic: male-no.png
   role: postdoc
   position: Postdoctoral Researcher
   social:
@@ -119,7 +119,7 @@ people:
       url: https://www.tudelft.nl/en/staff/c.a.hammerschmidt/
       
 - name: Laurens Bliek
-  pic: male-no
+  pic: male-no.png
   role: postdoc
   position: Postdoctoral Researcher
   social:
@@ -129,7 +129,7 @@ people:
       url: https://www.tudelft.nl/en/staff/l.bliek/
     
 - name: Azqa Nadeem
-  pic: female-no
+  pic: azqa.jpg
   role: phd
   position: PhD Candidate
   social:
@@ -139,7 +139,7 @@ people:
       url: https://www.tudelft.nl/staff/azqa.nadeem/
       
 - name: Daniel Vos
-  pic: male-no
+  pic: male-no.png
   role: phd
   position: PhD Candidate
   social:
@@ -149,7 +149,7 @@ people:
       url: #
       
 - name: Mark Patrick Roeling
-  pic: male-no
+  pic: male-no.png
   role: phd
   position: PhD Candidate
   social:
@@ -159,7 +159,7 @@ people:
       url: #
       
 - name: Sofia Tsoni
-  pic: female-no
+  pic: female-no.png
   role: external
   position: Developer
   social:
