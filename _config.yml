@@ -76,9 +76,9 @@ navigation_header:
 
 
 # Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+#navigation_footer:
+#- title: back to top 
+#  url: "#top"
 
 # Collections
 collections:

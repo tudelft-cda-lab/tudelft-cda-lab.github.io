@@ -724,6 +724,12 @@ footer {
     padding: 25px 0;
 }
 
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    line-height: 40px;
+}
 
 
 ul.social-buttons {
