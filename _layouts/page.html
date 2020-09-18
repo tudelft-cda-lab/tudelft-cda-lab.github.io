@@ -14,7 +14,7 @@ layout: default
 
 	{{ content }}
 	
-	{% include location-icon.html %}
+	{% if page.title == "Contact us" %}{% include location-icon.html %}{% endif %}
 </section>
 
 </div>
