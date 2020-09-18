@@ -7,8 +7,8 @@ layout: default
 <main class="main  container">
 
   <div class="content">
-
-    <article class="article  article--page  typeset">
+		<h2 class="section-heading">{{ page.title }}</h2>
+    <!--article class="article  article--page  typeset">
 
       {% if paginator.posts %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
@@ -21,7 +21,7 @@ layout: default
         
       {% endif %}
 
-    </article>
+    </article-->
 
     {% include post-list.html %}
 
