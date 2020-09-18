@@ -124,7 +124,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: github
+    - title: globe
       url: https://google.com/
       
 - name: Daniel Vos
@@ -133,7 +133,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: globe
       url: https://google.com/
       
 - name: Sofia Tsoni
@@ -142,7 +142,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: globe
       url: https://google.com/
 
 # 6. Jekyll collections settings
