@@ -97,7 +97,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: globe
       url: https://google.com/
 
 - name: Christian Hammerschmidt
@@ -106,7 +106,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: globe
       url: https://google.com/
       
 - name: Laurens Bliek
