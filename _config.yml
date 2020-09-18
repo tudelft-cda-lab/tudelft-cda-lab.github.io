@@ -159,10 +159,16 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
-
-
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: #https://twitter.com/DavidDarnes
-  #LinkedIn: #https://www.linkedin.com/in/daviddarnes
-  GitHub: #https://github.com/daviddarnes
+      
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
