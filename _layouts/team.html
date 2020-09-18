@@ -6,15 +6,21 @@ layout: default
 
 
 <main class="main  container">
+<article class="content"> 
 
+	<h2 class="section-heading">{{ page.title }}</h2>
+
+	{{ content }}
+
+</article>
 <!-- Team Section -->
 <section id="team">
 	<div class="container">
-		<div class="row">
+		<!--div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading">People</h2>
 				</div>
-		</div>
+		</div-->
 		{% for role in site.roles %}
 				<div class="row">
 				{% for member in site.people %}
