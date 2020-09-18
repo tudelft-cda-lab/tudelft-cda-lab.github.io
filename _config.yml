@@ -36,7 +36,7 @@ navigation_header:
 - title: Home
   url: /
 - title: People
-  url: /people/
+  url: /team/
 - title: Projects
   url: /projects/
 - title: Contact
@@ -54,4 +54,60 @@ collections:
     title: Research projects
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
+    
+# Team names, titles and social links
+people:
+- name: Sicco Verwer
+  pic: m-1
+  position: Lab Head
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
+
+- name: Christian Hammerschmidt
+  pic: m-2
+  position: Post Doc
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
+      
+- name: Laurens Bliek
+  pic: m-3
+  position: Post Doc
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
+    
+- name: Azqa Nadeem
+  pic: f-1
+  position: PhD candiate
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
+      
+- name: Daniel Vos
+  pic: m-4
+  position: PhD candiate
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
+      
+- name: Sofia Tsoni
+  pic: f-1
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: website
+      url: #
 
