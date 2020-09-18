@@ -36,7 +36,7 @@ navigation_header:
 - title: Home
   url: /
 - title: People
-  url: /team/
+  url: /people/
 - title: Projects
   url: /projects/
 - title: Contact
