@@ -115,7 +115,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: globe
       url: https://google.com/
     
 - name: Azqa Nadeem
@@ -124,7 +124,7 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/
-    - title: website
+    - title: github
       url: https://google.com/
       
 - name: Daniel Vos
