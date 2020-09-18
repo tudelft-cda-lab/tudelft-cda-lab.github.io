@@ -1,11 +1,16 @@
 # Set theme
-remote_theme: daviddarnes/alembic
+#remote_theme: daviddarnes/alembic
 
 # File excludes
 exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
+- CODE_OF_CONDUCT.md
+- LICENSE
+- CNAME
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
 
 # Set plugins
 plugins:
@@ -14,22 +19,52 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
-- jekyll-default-layout
 - jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
 - jemoji
-- jekyll-remote-theme
+
+# 3. Gem settings
+paginate: 5
+paginate_path: projects/page:num
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: #DavidDarnes # jekyll-seo-tag > Owners twitter username
+#author: DavidDarnes # jekyll-seo-tag > default author
+#social: # jekyll-seo-tag > social overrides
+#  name: David Darnes # jekyll-seo-tag > real name
+#  links:  # jekyll-seo-tag > social aliases (sameAs)
+#    - https://twitter.com/DavidDarnes
+#    - https://www.facebook.com/daviddarnes
+#    - https://www.linkedin.com/in/daviddarnes
+#    - https://github.com/daviddarnes
+# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+# commonmark:
+  # options: ["SMART", "FOOTNOTES"]
+  # extensions: ["strikethrough", "autolink", "table"]
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/Amsterdam # Timezone for blog posts and alike
+
+
 
 # Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
 url: 'https://tudelft-cda-lab.github.io/'
 baseurl: ''
 title: 'Cyber Data Analytics Lab'
 description: 'Webpage for the Cyber Data Analytics Lab'
 permalink: pretty
 logo: "/assets/TUD.png"
+repo: "https://github.com/daviddarnes/alembic"
+#email: "me@daviddarnes.com"
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
-# Pagination
-paginate: 5
-paginate_path: projects/page:num
 
 # Header nav
 navigation_header:
@@ -110,4 +145,25 @@ people:
       url: #
     - title: website
       url: #
+
+# 6. Jekyll collections settings
+defaults: 
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
+
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: #https://twitter.com/DavidDarnes
+  #LinkedIn: #https://www.linkedin.com/in/daviddarnes
+  GitHub: #https://github.com/daviddarnes
 
