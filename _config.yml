@@ -8,7 +8,6 @@ exclude:
 - Gemfile.lock
 - CODE_OF_CONDUCT.md
 - LICENSE
-- CNAME
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
