@@ -4,10 +4,7 @@ layout: default
 
 {% include site-header.html %}
 
-{% assign leader = "leader" %}
-{% assign postdoc = "postdoc" %}
-{% assign phd = "phd" %}
-{% assign external = "external" %}
+
 <main class="main  container">
 
 <!-- Team Section -->
@@ -18,27 +15,10 @@ layout: default
 					<h2 class="section-heading">People</h2>
 				</div>
 		</div>
-		<div class="row">
-			{% for member in site.people %}
-				{% if member.role contains leader %}
-						<div class="col-sm-4">
-							<div class="team-member">
-								<img src="{{ site.baseurl }}/assets/people/{{ member.pic }}.png" class="img-responsive img-circle" alt="" height="150" width="150">
-								<h4>{{ member.name }}</h4>
-								<p class="text-muted">{{ member.position }}</p>
-								<ul class="list-inline social-buttons">
-									{% for network in member.social %}
-									<li>
-										<a href="{{ network.url }}">
-											<i class="fa fa-{{ network.title }}"></i>
-										</a>
-									</li>
-									{% endfor %}
-								</ul>
-							</div>
-						</div>
-					{% endif %}
-					{% if member.role contains postdoc %}
+		{% for role in site.roles %}
+				<div class="row">
+				{% for member in site.people %}
+					{% if member.role contains role.r %}
 							<div class="col-sm-4">
 								<div class="team-member">
 									<img src="{{ site.baseurl }}/assets/people/{{ member.pic }}.png" class="img-responsive img-circle" alt="" height="150" width="150">
@@ -55,45 +35,11 @@ layout: default
 									</ul>
 								</div>
 							</div>
-				{% endif %}
-				{% if member.role contains phd %}
-						<div class="col-sm-4">
-							<div class="team-member">
-								<img src="{{ site.baseurl }}/assets/people/{{ member.pic }}.png" class="img-responsive img-circle" alt="" height="150" width="150">
-								<h4>{{ member.name }}</h4>
-								<p class="text-muted">{{ member.position }}</p>
-								<ul class="list-inline social-buttons">
-									{% for network in member.social %}
-									<li>
-										<a href="{{ network.url }}">
-											<i class="fa fa-{{ network.title }}"></i>
-										</a>
-									</li>
-									{% endfor %}
-								</ul>
-							</div>
-						</div>
-				{% endif %}
-				{% if member.role contains external %}
-						<div class="col-sm-4">
-							<div class="team-member">
-								<img src="{{ site.baseurl }}/assets/people/{{ member.pic }}.png" class="img-responsive img-circle" alt="" height="150" width="150">
-								<h4>{{ member.name }}</h4>
-								<p class="text-muted">{{ member.position }}</p>
-								<ul class="list-inline social-buttons">
-									{% for network in member.social %}
-									<li>
-										<a href="{{ network.url }}">
-											<i class="fa fa-{{ network.title }}"></i>
-										</a>
-									</li>
-									{% endfor %}
-								</ul>
-							</div>
-						</div>
-			{% endif %}		
-			{% endfor %}
-		</div>
+						{% endif %}
+
+				{% endfor %}
+				</div>
+		{% endfor %}
 	</div>
 </section>
 

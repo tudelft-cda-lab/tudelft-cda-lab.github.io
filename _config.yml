@@ -86,7 +86,13 @@ collections:
     title: Research projects
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
-    
+  
+roles:
+- r: leader
+- r: postdoc
+- r: phd
+- r: external  
+
 # Team names, titles and social links
 people:
 - name: Sicco Verwer
