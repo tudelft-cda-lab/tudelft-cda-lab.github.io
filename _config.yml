@@ -37,7 +37,7 @@ twitter:
 #    - https://www.facebook.com/daviddarnes
 #    - https://www.linkedin.com/in/daviddarnes
 #    - https://github.com/daviddarnes
-markdown: kramdown
+#markdown: kramdown
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
   # extensions: ["strikethrough", "autolink", "table"]
