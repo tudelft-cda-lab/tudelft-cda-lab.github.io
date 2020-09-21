@@ -1,5 +1,5 @@
 <section class="section">
-<ul>
+<ul class="list">
   {% for paper in site.papers %}
 	<li>
 	  <div class="article">
@@ -8,7 +8,7 @@
 		<span class="text-muted">{{ paper.author_list }}</span> <br/>
 		<span class="label"><a>{{ paper.venue }}</a></span>
 		
-		<span class="font-weight-bold"> Abstract: </span> {{ paper.excerpt | markdownify | truncatewords: 100 }} <br/>
+		{{ paper.excerpt | markdownify | truncatewords: 100 }} <br/>
 		
 		{% if paper.paper_link %}
 			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
