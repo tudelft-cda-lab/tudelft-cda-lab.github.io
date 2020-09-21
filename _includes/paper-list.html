@@ -4,11 +4,11 @@
 	<li class="item  item--post">
 	  <article class="article  article--post">
 
-		<h2>{{ paper.title }}</h2>
-		<span class="text-muted">{{ paper.author_list }}</span>
+		<h4>{{ paper.title }}</h4>
+		<span class="text-muted">{{ paper.author_list }}</span> <br/>
 		<span class="label  label--category"><a href="#">{{ paper.venue }}</a></span>
 		
-		{{ paper.excerpt | markdownify | truncatewords: 120 }}
+		{{ paper.excerpt | markdownify | truncatewords: 120 }} <br/>
 			
 		<button class="btn btn-light"><a href="{{ paper.paper_link }}">Paper</a></button>
 		<button class="btn btn-light"><a href="{{ paper.code_link }}">Code</a></button>
