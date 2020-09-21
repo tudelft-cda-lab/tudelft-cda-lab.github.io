@@ -68,11 +68,11 @@ navigation_header:
 
 # Collections
 collections:
-- posts:
+  posts:
     title: Research projects
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
-- papers:
+  papers:
     title: Publication list
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
