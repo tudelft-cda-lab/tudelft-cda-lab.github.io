@@ -1,14 +1,14 @@
 <section class="section">
-<ul class="list">
+<ul>
   {% for paper in site.papers %}
-	<li class="item">
+	<li>
 	  <div class="article">
 	  
-		<h4>{{ paper.title }}</h4>
+		<h4 class="text-capitalize">{{ paper.title }}</h4>
 		<span class="text-muted">{{ paper.author_list }}</span> <br/>
-		<span class="label  label--category"><a>{{ paper.venue }}</a></span>
+		<span class="label"><a>{{ paper.venue }}</a></span>
 		
-		{{ paper.excerpt | markdownify | truncatewords: 120 }} <br/>
+		<span class="font-weight-bold"> Abstract: </span> {{ paper.excerpt | markdownify | truncatewords: 100 }} <br/>
 		
 		{% if paper.paper_link %}
 			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
