@@ -1,9 +1,12 @@
 ---
 layout: paper
-title: The Robust Malware Detection Challenge and Greedy Random Accelerated Multi-Bit Search
-repo: https://github.com/tudelft-cda-lab/GRAMS
-venue: "AISec 2020"
 feature_image: "https://picsum.photos/2560/600?image=872"
+
+title: The Robust Malware Detection Challenge and Greedy Random Accelerated Multi-Bit Search
+author_list: Sicco Verwer, Azqa Nadeem, Christian Hammerschmidt, Laurens Bliek, Abdullah Al-Dujaili, Una-May O'Reilly
+code_link: https://github.com/tudelft-cda-lab/GRAMS
+paper_link: #
+venue: Artificial Intelligence and Security (AISec), 2020
 ---
 
 

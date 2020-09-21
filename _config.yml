@@ -74,7 +74,7 @@ collections:
     feature_image: "https://picsum.photos/2560/600?image=866"
   papers:
     title: Publication list
-    output: true
+    output: false
     feature_image: "https://picsum.photos/2560/600?image=866"
  
 # ---------------------------------------------------------------------------------
