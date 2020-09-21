@@ -1,4 +1,4 @@
-<section class="section  typeset">
+<section class="section ">
 <ul class="list  list--posts">
   {% for paper in site.papers %}
 	<li class="item  item--post">
@@ -10,8 +10,8 @@
 		
 		{{ paper.excerpt | markdownify | truncatewords: 120 }} <br/>
 			
-		<button class="btn btn-light"><a href="{{ paper.paper_link }}">Paper</a></button>
-		<button class="btn btn-light"><a href="{{ paper.code_link }}">Code</a></button>
+		<button type="button" class="btn btn-light btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
+		<button type="button" class="btn btn-light btn-sm"><a href="{{ paper.code_link }}">Code</a></button>
 	  </article>
 	</li>
   {% endfor %}
