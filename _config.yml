@@ -83,7 +83,7 @@ roles:
 # Update this collection for adding/removing people
 people:
 - name: Sicco Verwer
-  pic: male-no.png # Picture file name
+  pic: sicco.jpg # Picture file name
   role: leader
   position: Assistant Professor (PI)
   social:
