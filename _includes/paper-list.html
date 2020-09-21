@@ -1,0 +1,21 @@
+<section class="section  typeset">
+<ul class="list  list--posts">
+  {% for paper in site.papers %}
+	<li class="item  item--post">
+	  <article class="article  article--post">
+
+		<h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+		{% capture venue %}
+    <span class="label  label--category"><a href="#">{{ page.venue }}</a></span>
+  {% endcapture %}
+  <small class="small">
+  {{ venue }}
+</small>
+<span class="label"><a href="#">{{ page.repo }}</a></span>
+		{{ page.excerpt | markdownify | truncatewords: 60 }}
+
+	  </article>
+	</li>
+  {% endfor %}
+</ul>
+</section>
