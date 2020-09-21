@@ -2,8 +2,8 @@
 <ul class="list  list--posts">
   {% for paper in site.papers %}
 	<li class="item  item--post">
-	  <article class="article  article--post">
-
+	  <article class="article">
+	  
 		<h4>{{ paper.title }}</h4>
 		<span class="text-muted">{{ paper.author_list }}</span> <br/>
 		<span class="label  label--category"><a href="#">{{ paper.venue }}</a></span>
@@ -11,12 +11,12 @@
 		{{ paper.excerpt | markdownify | truncatewords: 120 }} <br/>
 		
 		{% if paper.paper_link == "#" %}
-			<button type="button" class="btn btn-outline-info btn-sm" disabled><a href="#">Paper</a></button>
+			<button type="button" class="btn btn-outline-info btn-sm disabled"><a href="#">Paper</a></button>
 		{% else %}
 			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
 		{% endif %}
 		{% if paper.code_link == "#" %}
-			<button type="button" class="btn btn-outline-info btn-sm" disabled><a href="#">Code</a></button>
+			<button type="button" class="btn btn-outline-info btn-sm disabled"><a href="#">Code</a></button>
 		{% else %}
 			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.code_link }}">Code</a></button>
 		{% endif %}
