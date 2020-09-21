@@ -9,9 +9,15 @@
 		<span class="label  label--category"><a href="#">{{ paper.venue }}</a></span>
 		
 		{{ paper.excerpt | markdownify | truncatewords: 120 }} <br/>
-			
-		<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
-		<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.code_link }}">Code</a></button>
+		
+		{% if paper.paper_link == "#" %}
+			<button type="button" class="btn btn-outline-info btn-sm" disabled><a href="#">Paper</a></button>
+		{% else %}
+			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
+		{% if paper.code_link == "#" %}
+			<button type="button" class="btn btn-outline-info btn-sm" disabled><a href="#">Code</a></button>
+		{% else %}
+			<button type="button" class="btn btn-outline-info btn-sm"><a href="{{ paper.code_link }}">Code</a></button>
 	  </article>
 	</li>
   {% endfor %}
