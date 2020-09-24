@@ -157,6 +157,16 @@ people:
       url: #
     - title: globe
       url: #
+      
+- name: Ligia Zorello
+  pic: female-no.png
+  role: external
+  position: Visiting PhD candidate
+  social:
+    - title: twitter
+      url: #
+    - title: globe
+      url: #
 
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
