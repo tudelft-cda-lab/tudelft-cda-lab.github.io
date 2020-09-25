@@ -90,6 +90,7 @@ roles:
 
 # Update this collection for adding/removing people
 people:
+####### LEADER #########
 - name: Sicco Verwer
   pic: sicco.jpg # Picture file name
   role: leader
@@ -99,7 +100,8 @@ people:
       url: https://twitter.com/siccoverwer
     - title: globe
       url: https://www.tudelft.nl/staff/s.e.verwer/
-
+      
+####### POST DOC #########
 - name: Christian Hammerschmidt
   pic: male-no.png
   role: postdoc
@@ -119,7 +121,8 @@ people:
       url: #
     - title: globe
       url: https://www.tudelft.nl/en/staff/l.bliek/
-    
+      
+ ####### PHD #########
 - name: Azqa Nadeem
   pic: azqa.jpg
   role: phd
@@ -150,6 +153,7 @@ people:
     - title: globe
       url: #
       
+####### EXT #########
 - name: Sofia Tsoni
   pic: female-no.png
   role: external
@@ -169,9 +173,53 @@ people:
       url: #
     - title: globe
       url: #
+      
+ ####### MSC #########
+
 - name: Clinton Cao
   pic: male-no.png
   role: msc
+  position: MSc. student
+  social:
+    - title: twitter
+      url: #
+    - title: globe
+      url: #
+      
+ - name: Arjen Brussen
+  pic: male-no.png
+  role: msc
+  position: MSc. student
+  social:
+    - title: twitter
+      url: #
+    - title: globe
+      url: #
+      
+- name: Maria Simidzioski
+  pic: female-no.png
+  role: msc
+  position: MSc. student
+  social:
+    - title: twitter
+      url: #
+    - title: globe
+      url: #
+      
+ - name: Irene van der Blij
+  pic: female-no.png
+  role: msc
+  position: MSc. student
+  social:
+    - title: twitter
+      url: #
+    - title: globe
+      url: #
+      
+####### ALUMNI #########
+ - name: Cas Buijs
+  pic: male-no.png
+  role: alumni
   position: MSc. student
   social:
     - title: twitter
