@@ -90,7 +90,6 @@ roles:
 
 # Update this collection for adding/removing people
 people:
-####### LEADER #########
 - name: Sicco Verwer
   pic: sicco.jpg # Picture file name
   role: leader
@@ -101,8 +100,8 @@ people:
     - title: globe
       url: https://www.tudelft.nl/staff/s.e.verwer/
       
-####### POST DOC #########
-- name: Christian Hammerschmidt
+
+- name: Christian Hammerschmidt 
   pic: male-no.png
   role: postdoc
   position: Postdoctoral Researcher
@@ -122,7 +121,6 @@ people:
     - title: globe
       url: https://www.tudelft.nl/en/staff/l.bliek/
       
- ####### PHD #########
 - name: Azqa Nadeem
   pic: azqa.jpg
   role: phd
@@ -153,7 +151,6 @@ people:
     - title: globe
       url: #
       
-####### EXT #########
 - name: Sofia Tsoni
   pic: female-no.png
   role: external
@@ -174,7 +171,6 @@ people:
     - title: globe
       url: #
       
- ####### MSC #########
 
 - name: Clinton Cao
   pic: male-no.png
@@ -216,7 +212,6 @@ people:
     - title: globe
       url: #
       
-####### ALUMNI #########
  - name: Cas Buijs
   pic: male-no.png
   role: alumni
