@@ -85,6 +85,7 @@ roles:
 - r: postdoc
 - r: phd
 - r: external  
+- r: alumni
 
 # Update this collection for adding/removing people
 people:
