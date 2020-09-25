@@ -20,7 +20,7 @@ layout: default
 	{% for role in site.roles %}
 			<div class="row">
 			{% if role.r != "leader" %}
-				<h4> {{role.r.name}} </h4> <hr/>
+				<h4> {{role.name}} </h4> <hr/>
 			{% endif %}	
 			{% for member in site.people %}
 				{% if member.role contains role.r %}
