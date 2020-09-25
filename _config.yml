@@ -84,7 +84,8 @@ roles:
 - r: leader
 - r: postdoc
 - r: phd
-- r: external  
+- r: external 
+- r: msc
 - r: alumni
 
 # Update this collection for adding/removing people
@@ -170,11 +171,11 @@ people:
       url: #
 - name: Clinton Cao
   pic: male-no.png
-  role: alumni
+  role: msc
   position: MSc. student
   social:
     - title: twitter
-      url: www.twitter.com
+      url: #
     - title: globe
       url: #
 # ---------------------------------------------------------------------------------
