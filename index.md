@@ -10,4 +10,4 @@ Welcome to the Cyber Data Analytics lab. We like to turn black-box ML into white
 
 ## Recent News
 
-- We have a new website!
+- Sicco Verwer and Toon Calders have received the [Test of Time Award](https://www.tudelft.nl/en/2020/ewi/insy/cyber-security/test-of-time-award-for-cys-paper/) for their paper _Three naive Bayes approaches for discrimination-free classification_ at ECML-PKDD 2020 .
