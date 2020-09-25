@@ -100,7 +100,6 @@ people:
     - title: globe
       url: https://www.tudelft.nl/staff/s.e.verwer/
       
-
 - name: Christian Hammerschmidt 
   pic: male-no.png
   role: postdoc
@@ -171,7 +170,6 @@ people:
     - title: globe
       url: #
       
-
 - name: Clinton Cao
   pic: male-no.png
   role: msc
@@ -182,7 +180,7 @@ people:
     - title: globe
       url: #
       
- - name: Arjen Brussen
+- name: Arjen Brussen
   pic: male-no.png
   role: msc
   position: MSc. student
@@ -202,7 +200,7 @@ people:
     - title: globe
       url: #
       
- - name: Irene van der Blij
+- name: Irene van der Blij
   pic: female-no.png
   role: msc
   position: MSc. student
@@ -212,7 +210,7 @@ people:
     - title: globe
       url: #
       
- - name: Cas Buijs
+- name: Cas Buijs
   pic: male-no.png
   role: alumni
   position: MSc. student
