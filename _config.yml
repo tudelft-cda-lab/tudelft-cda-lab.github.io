@@ -168,7 +168,15 @@ people:
       url: #
     - title: globe
       url: #
-
+- name: Clinton Cao
+  pic: male-no.png
+  role: alumni
+  position: MSc. student
+  social:
+    - title: twitter
+      url: www.twitter.com
+    - title: globe
+      url: #
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
 
