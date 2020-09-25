@@ -82,11 +82,17 @@ collections:
 # Update this collecting for adding/removing roles 
 roles:
 - r: leader
+    name: Lab head
 - r: postdoc
+    name: Postdoctoral Researchers
 - r: phd
-- r: external 
+    name: PhD Candidates
 - r: msc
+    name: MSc. students
+- r: external 
+    name: External collaborators
 - r: alumni
+    name: Past members
 
 # Update this collection for adding/removing people
 people:
