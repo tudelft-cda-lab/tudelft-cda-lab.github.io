@@ -12,6 +12,12 @@ This is the repository for the CDA lab's website. It is deployed using `github.p
 5. Optionally, also add the links to their personal webpage.
 6. Commit the changes.
 
+#### Adjusting picture size
+1. Open powerpoint and insert your picture from the `Insert` menu
+2. Select `Crop` -> `Aspect rartio` -> `1:1` and adjust the cropped area
+3. Then, select `Crop` -> `Crop to shape` -> `Oval`
+4. Finally, right-click, choose `Save as picture`, and store it in the `assets/people/` folder.
+
 #### Structure
 
 ##### Folders
