@@ -6,7 +6,7 @@ title: Contact us
   
 ---
 
-If you're inquiring about open positions, send us an email at <XXX@XXX.xx>.
+If you're inquiring about open positions, send us an email at <s.e.verwer@tudelft.nl>.
 
 ##### Visting address: 
 
