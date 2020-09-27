@@ -63,7 +63,7 @@ navigation_header:
 
 # Footer nav
 #navigation_footer:
-#- title: back to top 
+#- title: back to top
 #  url: "#top"
 
 # Collections
@@ -76,10 +76,10 @@ collections:
     title: Publication list
     output: false
     feature_image: "https://picsum.photos/2560/600?image=866"
- 
+
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
-# Update this collecting for adding/removing roles 
+# Update this collecting for adding/removing roles
 roles:
 - r: leader
   name: Lab head
@@ -89,7 +89,7 @@ roles:
   name: PhD Candidates
 - r: msc
   name: MSc. students
-- r: external 
+- r: external
   name: External collaborators
 - r: alumni
   name: Past members
@@ -105,8 +105,8 @@ people:
       url: https://twitter.com/siccoverwer
     - title: globe
       url: https://www.tudelft.nl/staff/s.e.verwer/
-      
-- name: Christian Hammerschmidt 
+
+- name: Christian Hammerschmidt
   pic: male-no.png
   role: postdoc
   position: Postdoctoral Researcher
@@ -115,7 +115,7 @@ people:
       url: https://twitter.com/chrshmmmr
     - title: globe
       url: https://www.tudelft.nl/en/staff/c.a.hammerschmidt/
-      
+
 - name: Laurens Bliek
   pic: male-no.png
   role: postdoc
@@ -125,7 +125,7 @@ people:
       url: #
     - title: globe
       url: https://www.tudelft.nl/en/staff/l.bliek/
-      
+
 - name: Azqa Nadeem
   pic: azqa.jpg
   role: phd
@@ -135,7 +135,7 @@ people:
       url: https://twitter.com/azqa_nadeem
     - title: globe
       url: https://www.tudelft.nl/staff/azqa.nadeem/
-      
+
 - name: Daniel Vos
   pic: male-no.png
   role: phd
@@ -145,7 +145,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Mark Patrick Roeling
   pic: male-no.png
   role: phd
@@ -155,7 +155,7 @@ people:
       url: https://twitter.com/mproeling
     - title: globe
       url: #
-      
+
 - name: Sofia Tsoni
   pic: female-no.png
   role: external
@@ -165,7 +165,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Ligia Zorello
   pic: female-no.png
   role: external
@@ -175,17 +175,17 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Clinton Cao
-  pic: male-no.png
+  pic: clinton.png
   role: msc
   position: MSc. student
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/CaoClinton
     - title: globe
       url: #
-      
+
 - name: Arjen Brussen
   pic: male-no.png
   role: msc
@@ -195,7 +195,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Maria Simidzioski
   pic: female-no.png
   role: msc
@@ -205,7 +205,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Irene van der Blij
   pic: female-no.png
   role: msc
@@ -215,7 +215,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Geert Habben Jansen
   pic: male-no.png
   role: msc
@@ -225,7 +225,7 @@ people:
       url: #
     - title: globe
       url: #
-      
+
 - name: Cas Buijs
   pic: male-no.png
   role: alumni
@@ -246,7 +246,7 @@ address: Van Mourik Broekmanweg 6, 2628 XE Delft
 
 
 # 6. Jekyll collections settings
-defaults: 
+defaults:
   -
     scope:
       path: ""
@@ -259,5 +259,3 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
-      
-
