@@ -167,14 +167,14 @@ people:
       url: #
 
 - name: Ligia Zorello
-  pic: female-no.png
+  pic: ligia.png
   role: external
   position: Visiting PhD candidate
   social:
     - title: twitter
       url: #
     - title: globe
-      url: #
+      url: https://www.deib.polimi.it/ita/personale/dettagli/1414010
 
 - name: Clinton Cao
   pic: clinton.png
