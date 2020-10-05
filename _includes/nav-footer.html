@@ -1,16 +1,16 @@
 {% if site.navigation_footer %}
-<nav class="nav  nav--footer">
-  <ul class="list list--nav">
+  <div class="col-md-4 col-md-offset-2">
     {% for item in site.navigation_footer %}
-		<small class="text-muted">
-			<a href="{{ item.url }}">
-				<i class="fa fa-{{ item.title }}"></i> {{ item.text }}
-			</a>
-        </small>
-      </li>
+		<a href="{{ item.url }}">
+			<i class="fa fa-{{ item.title }}"></i>  <small class="text-muted">{{ item.text }} </small>
+		</a>
     {% endfor %}
-  </ul>
-</nav>
+  </div>
 {% else %}
   {% include nav-default.html %}
 {% endif %}
+
+
+
+  
+
