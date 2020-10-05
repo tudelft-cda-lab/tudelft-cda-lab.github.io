@@ -1,6 +1,6 @@
 ---
 layout: page
-feature_image: ../assets/banner2.png
+feature_image: "../assets/banner2.png"
 feature_text: |
 	Welcome to the
   ## Cyber Analytics Lab
