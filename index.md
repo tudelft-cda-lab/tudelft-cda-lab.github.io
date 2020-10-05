@@ -1,6 +1,6 @@
 ---
 layout: page
-feature_image: ../assets/banner.jpg
+feature_image: "https://picsum.photos/2560/600?image=866"
 feature_text: |
   ## Cyber Analytics Lab
 ---
