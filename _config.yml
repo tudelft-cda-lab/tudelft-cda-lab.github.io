@@ -44,7 +44,7 @@ title: 'Cyber Analytics Lab'
 description: 'TU Delft'
 permalink: pretty
 logo: "/assets/TUD.png"
-logo2: "/assets/logo.svg"
+logo2: "/assets/logos/logo.svg"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 favicons: 
 - 32: '/assets/logos/favicon.png'
