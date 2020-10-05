@@ -1,11 +1,15 @@
 <footer class="footer">
 	<div class="row">
 		<div class="col-md-4">
-			<span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+			<span class="copyright">
+				<small class="text-muted">
+					&copy; {{ site.title }} {{ 'now' | date: "%Y" }}
+				</small>
+			</span>
 		</div>
   
 
-	{% include site-before-end.html %}
+	{% include nav-footer.html %}
   </div>
 </footer>
 

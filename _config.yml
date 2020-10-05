@@ -63,9 +63,11 @@ navigation_header:
 
 
 # Footer nav
-#navigation_footer:
-#- title: back to top
-#  url: "#top"
+navigation_footer:
+- title: Created by CAL. 
+  url: "https://github.com/tudelft-cda-lab/"
+- title: Powered by GitHub Pages.
+  url: "https://pages.github.com/themes/"
 
 # Collections
 collections:
