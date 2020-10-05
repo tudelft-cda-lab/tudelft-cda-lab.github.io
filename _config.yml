@@ -76,11 +76,11 @@ collections:
   posts:
     title: Research projects
     output: true
-    feature_image: /assets/banner.jpg
+    feature_image: "https://picsum.photos/2560/600?image=866"
   papers:
     title: Publication list
     output: false
-    feature_image: /assets/banner.jpg
+    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
