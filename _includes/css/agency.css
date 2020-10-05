@@ -70,6 +70,42 @@ h6 {
     background-color: #222;
 }
 
+.btn-info {
+    border-color: #{{ site.data.template.color.primary }};
+    font-family: {{ site.data.template.font.primary }};
+    color: #000;
+    background-color: transparent;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+    border-color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+    border-color: #{{ site.data.template.color.muted }};
+    background-color: transparent;
+}
+
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
@@ -403,7 +439,7 @@ ul.social-buttons li a:active {
 .btn:active,
 .btn.active,
 .btn:active:focus {
-    outline: 10;
+    outline: 0;
 }
 
 .portfolio-modal .modal-content {
