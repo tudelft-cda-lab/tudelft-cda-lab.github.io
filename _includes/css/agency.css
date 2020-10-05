@@ -76,14 +76,11 @@ h6 {
     color: #000;
     background-color: transparent;
 }
-.btn-info:hover,
-.btn-info:focus,
-.btn-info:active,
-.btn-info.active,
-.open .dropdown-toggle.btn-info {
+.btn-info:hover {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: transparent;
+	font-weight:700;
 }
 
 .btn-info.disabled,
@@ -101,8 +98,9 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-    border-color: #{{ site.data.template.color.muted }};
+    border-color: #{{ site.data.template.color.primary }};
     background-color: transparent;
+	border-style:dashed;
 }
 
 
