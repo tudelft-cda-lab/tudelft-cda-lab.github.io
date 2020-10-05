@@ -37,7 +37,6 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.primary }};
-	background: linear-gradient(to bottom, transparent 50%, #ffffff 50%) !important;
 
 }
 
