@@ -45,7 +45,7 @@ description: 'TU Delft'
 permalink: pretty
 logo: "/assets/TUD.png"
 logo2: "/assets/logos/logo-text.svg"
-favicon: "/assets/logos/logosvg"
+favicon: "/assets/logos/logo.svg"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # Header nav
