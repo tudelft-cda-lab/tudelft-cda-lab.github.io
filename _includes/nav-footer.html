@@ -2,8 +2,11 @@
 <nav class="nav  nav--footer">
   <ul class="list list--nav">
     {% for item in site.navigation_footer %}
-
-        <small class="small"><a href="{{ item.url }}">{{ item.title }}</a></small>
+		<small class="text-muted">
+			<a href="{{ item.url }}">
+				<i class="fa fa-{{ item.title }}"></i> {{ item.text }}
+			</a>
+        </small>
       </li>
     {% endfor %}
   </ul>
