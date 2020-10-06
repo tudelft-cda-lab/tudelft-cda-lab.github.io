@@ -78,13 +78,13 @@ collections:
     output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
     feature_text: |
-      Research Projects
+      # Research Projects
   papers:
     title: Publication list
     output: false
     feature_image: "https://picsum.photos/2560/600?image=866"
     feature_text: |
-      Recent Publications
+      # Recent Publications
 
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
