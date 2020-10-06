@@ -2,7 +2,7 @@
 layout: page
 feature_image: "https://picsum.photos/2560/600?image=866"
 feature_text: |
-  ## Cyber Analytics Lab
+  # Cyber Analytics Lab
 ---
 
 Welcome to the Cyber Analytics lab at Delft University of Technology. We perform research in Artificial Intelligence and Data Science for Cyber Security and Software Engineering. Key topics we study are: State Machine Learning, Automated Reverse Engineering, Network Traffic Analytics, Attacker Behaviour Modelling, Adversarial Machine Learning...

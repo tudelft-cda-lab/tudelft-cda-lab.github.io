@@ -53,9 +53,12 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.primary }} !important;
     font-weight: 700;
+}
+
+.feature {
+background:linear-gradient(to top, #fde3cc, #FF841F) !important;
 }
 
 .img-centered {
