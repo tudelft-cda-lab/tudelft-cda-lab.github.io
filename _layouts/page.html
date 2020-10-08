@@ -9,13 +9,13 @@ layout: default
 <div class="content">
 <!-- Team Section -->
 	<!--h2 class="section-heading">{{ page.title }}</h2-->
-
-<section class="section  typeset">
-
-	{{ content }}
+{{ content }}
 	
-	{% if page.title == "Contact us" %}{% include location-icon.html %}{% endif %}
-</section>
+{% if page.title == "Contact us" %}{% include location-icon.html %}{% endif %}
+<!-- section class="section  typeset">
+
+	
+</section -->
 
 </div>
 
