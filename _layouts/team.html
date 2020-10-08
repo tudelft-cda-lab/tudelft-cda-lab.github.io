@@ -7,7 +7,7 @@ layout: default
 
 <main class="main  container">
 
-<div class="content">
+<div id="team" class="content">
 <!-- Team Section -->
 	<!--h2 class="section-heading">{{ page.title }}</h2-->
 
@@ -16,7 +16,6 @@ layout: default
 				<h2 class="section-heading">People</h2>
 			</div>
 	</div-->
-	<section id="team" class="section">
 	{% for role in site.roles %}
 			<div class="row">
 			{% if role.r != "leader" %}
@@ -55,7 +54,6 @@ layout: default
 			{% endfor %}
 			</div>
 	{% endfor %}
-	</section>
 </div>
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 

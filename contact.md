@@ -9,6 +9,6 @@ feature_text: |
 ---
 
 If you're inquiring about open positions, send us an email at <s.e.verwer@tudelft.nl>.
-
+<br/><br/><br/>
 ##### Visting address: 
 
