@@ -3,10 +3,13 @@
   {% if page.layout == "post" %}
       {% include post-related.html %}
 
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+  {% elsif page.layout == "home" or page.layout == "blog" %}
       <h3>About this site</h3>
       <p>{{ site.description }}</p>
       {% include nav-social.html %}
+	  
+	{% elsif page.layout == "page" %}
+      {% include picture-aside-right.html %}
 
   {% elsif page.layout == "categories" %}
       <h3>Index</h3>
