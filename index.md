@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Contact us
 logo: ../assets/TUD.png
 feature_image: ../assets/cal.png
 feature_text: |
