@@ -6,7 +6,7 @@
           <article class="article  article--post">
 
             {% if page.project-pic %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+				<a href="{{ site.baseurl }}{{ page.url }}"><img height="150" width="150" src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
 			{% else %}
 				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
 			{% endif %}
@@ -24,7 +24,7 @@
         <li class="item  item--post">
           <article class="article  article--post">
 		    {% if page.project-pic %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+				<a href="{{ site.baseurl }}{{ page.url }}"><img height="150" width="150" src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
 			{% else %}
 				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
 			{% endif %}
