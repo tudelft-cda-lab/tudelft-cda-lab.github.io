@@ -6,7 +6,9 @@
           <article class="article  article--post">
 
             {% if page.project-pic %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><img height="150" width="150" src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+				<img src="{{ page.project-pic }}" height="150" class="img-thumbnail pull-left mr-2">
+				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+				</img>
 			{% else %}
 				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
 			{% endif %}
