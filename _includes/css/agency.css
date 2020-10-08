@@ -57,6 +57,10 @@ h6 {
     font-weight: 700;
 }
 
+h1{
+style="font-size:50px";
+}
+
 .feature {
 background: linear-gradient(to bottom, #0000, #fde3cc), url("../../assets/banner3.jpg") !important;
 }
