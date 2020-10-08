@@ -6,11 +6,14 @@
           <article class="article  article--post">
 
             {% if page.project-pic %}
-				<img src="{{ page.project-pic }}" height="150" class="img-thumbnail pull-left mr-2">
-				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+				<a href="{{ site.baseurl }}{{ page.url }}">
+				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
+				<h3>{{ page.title }}</h3>
 				</img>
+				</a>
+				
 			{% else %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+				<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
 			{% endif %}
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
@@ -26,9 +29,13 @@
         <li class="item  item--post">
           <article class="article  article--post">
 		    {% if page.project-pic %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><img height="150" width="150" src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+				<a href="{{ site.baseurl }}{{ page.url }}">
+				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
+				<h3>{{ page.title }}</h3>
+				</img>
+				</a>
 			{% else %}
-				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+				<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
 			{% endif %}
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
