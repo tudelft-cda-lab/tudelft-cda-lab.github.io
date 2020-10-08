@@ -394,6 +394,10 @@ aside.clients img {
     margin: 50px auto;
 }
 
+aside.aside--right {
+    opacity:1 !important;
+}
+
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/assets/map-image.jpg');

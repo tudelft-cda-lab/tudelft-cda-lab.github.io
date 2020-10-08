@@ -1,5 +1,11 @@
-<aside class="aside  typeset  aside--right">
+<aside class="aside--right">
+{% if page.layout == "page" %}
+  <img src="../assets/project-pics/cartoon-verwer.jpg" class="img-fluid" width="450">
 
-  <img src="../assets/project-pics/cartoon-verwer.jpg" class="img-fluid" width="500">
+{% elsif page.layout == "post" %}
 
+	{% if page.project-pic %}
+		<img src="../../../../../{{ page.project-pic }}" class="img-fluid center" width="500" style="display: block; margin-left: auto; margin-right: auto;">
+	{% endif %}
+{% endif %}
 </aside>

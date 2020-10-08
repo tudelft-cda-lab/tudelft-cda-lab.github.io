@@ -12,14 +12,13 @@ layout: default
     {% include post-meta.html %}
     {{ content }}
 	
-	{% if page.project-pic %}
-	<img src="../../../../../{{ page.project-pic }}" class="img-fluid center" width="500" style="display: block; margin-left: auto; margin-right: auto;">
-	{% endif %}
+	
 
 
   </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% if page.aside-own == true %}{% include site-aside-own.html %}{% endif %}
 
 </main>
 
