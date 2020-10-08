@@ -5,7 +5,11 @@
         <li class="item  item--post">
           <article class="article  article--post">
 
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+            {% if page.project-pic %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+			{% else %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+			{% endif %}
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
@@ -19,8 +23,11 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+		    {% if page.project-pic %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ page.project-pic }}"><h2>{{ page.title }}</h2></img></a>
+			{% else %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+			{% endif %}
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
