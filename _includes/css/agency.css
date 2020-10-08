@@ -58,7 +58,7 @@ h6 {
 }
 
 .feature {
-background:linear-gradient(to top, #fde3cc, #FF841F) !important;
+background: url("../../assets/banner3.jpg"), linear-gradient(to top, #fde3cc, #FF841F) !important;
 }
 
 .img-centered {
