@@ -12,13 +12,13 @@ Welcome to the Cyber Analytics lab at Delft University of Technology. We perform
 ## Recent News
 
 - Sicco Verwer and Toon Calders have received the [Test of Time Award](https://www.tudelft.nl/en/2020/ewi/insy/cyber-security/test-of-time-award-for-cys-paper/) for their paper _[Three naive Bayes approaches for discrimination-free classification](https://link.springer.com/article/10.1007/s10618-010-0190-x)_ at ECML-PKDD 2020.
-- Our paper entitled [The Robust Malware Detection Challenge And Greedy Random Accelerated Multi-Bit Search] 
+- Our paper entitled <a>The Robust Malware Detection Challenge And Greedy Random Accelerated Multi-Bit Search</a>
 by Sicco Verwer, Azqa Nadeem, Christian Hammerschmidt, Laurens Bliek, Abdullah Al-Dujaili, Una-May O'Reilly 
-has been accepted to [Artificial Intelligence and Security (AISec)] workshop co-located with ACM CCS 2020. 
-- Our paper entitled [Hybrid Connection And Host Clustering For Community Detection In Spatial-Temporal Network Data]
+has been accepted to <a>Artificial Intelligence and Security (AISec)</a> workshop co-located with ACM CCS 2020. 
+- Our paper entitled <a>Hybrid Connection And Host Clustering For Community Detection In Spatial-Temporal Network Data</a>
 by Mark Patrick Roeling, Azqa Nadeem, Sicco Verwer 
-has been accepted to the [Machine Learning for Cybersecurity (MLCS)] workshop, co-located with the ECML-PKDD 2020.
-- Our paper entitled [Beyond Labeling Using Clustering To Build Network Behavioral Profiles Of Malware Families] 
+has been accepted to the <a>Machine Learning for Cybersecurity (MLCS)</a> workshop, co-located with the ECML-PKDD 2020.
+- Our paper entitled <a>Beyond Labeling Using Clustering To Build Network Behavioral Profiles Of Malware Families</a> 
 by Azqa Nadeem, Christian Hammerschmidt, Carlos H. Ganan, Sicco Verwer
-will appear as a chapter in the [Malware Analysis using Artificial Intelligence and Deep Learning (MAAIDL)] book by Springer. 
+will appear as a chapter in the <a>Malware Analysis using Artificial Intelligence and Deep Learning (MAAIDL)</a> book by Springer. 
 
