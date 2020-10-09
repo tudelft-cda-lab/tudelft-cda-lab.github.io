@@ -2,11 +2,11 @@
   {% for tool in site.tools %}
 	<div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="{{ code_link }}">
+          <a class="portfolio-item" href="{{ tool.code_link }}">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2"> {{ tool.title }} </div>
-                <p class="mb-0">{{ content }}</p>
+                <p class="mb-0">{{ tool.excerpt | markdownify | truncatewords: 100 }}</p>
               </div>
             </div>
             <img class="img-fluid" src="../assets/default-offline-image.png" alt="">
