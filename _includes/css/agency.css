@@ -68,6 +68,7 @@ text-shadow : 0 0 5px #F97304;
 }
 
 .portfolio-item {
+  border-radius: 25px;
   display: block;
   position: relative;
   overflow: hidden;
@@ -79,7 +80,7 @@ text-shadow : 0 0 5px #F97304;
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #{{ site.data.template.color.secondary }};
   position: absolute;
   top: 0;
   bottom: 0;
@@ -131,7 +132,7 @@ text-shadow : 0 0 5px #F97304;
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #{{ site.data.template.color.secondary }};
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
