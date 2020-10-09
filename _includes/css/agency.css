@@ -68,9 +68,9 @@ text-shadow : 0 0 5px #F97304;
 }
 
 .no-gutters {
-	background: linear-gradient(to bottom, #0000, #fde3cc)!important;
-	
+	background: linear-gradient(to bottom, #0000, #fde3cc)!important;	
 }
+
 .portfolio-item {
   border-radius: 25px;
   display: block;
@@ -84,7 +84,7 @@ text-shadow : 0 0 5px #F97304;
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: #{{ site.data.template.color.secondary }};
+  background: linear-gradient(to bottom, #{{ site.data.template.color.secondary }}, #fde3cc)
   position: absolute;
   top: 0;
   bottom: 0;
@@ -132,6 +132,7 @@ text-shadow : 0 0 5px #F97304;
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
+	border-radius: 25px;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
