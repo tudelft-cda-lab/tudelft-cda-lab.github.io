@@ -67,6 +67,10 @@ padding-bottom:25px;
 text-shadow : 0 0 5px #F97304;
 }
 
+.no-gutters {
+	background: linear-gradient(to bottom, #0000, #fde3cc)!important;
+	
+}
 .portfolio-item {
   border-radius: 25px;
   display: block;
