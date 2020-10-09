@@ -5,7 +5,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 title: Beyond Labeling Using Clustering to Build Network Behavioral Profiles of Malware Families
 author_list: Azqa Nadeem, Christian Hammerschmidt, Carlos H. Ganan, Sicco Verwer
 code_link: https://github.com/tudelft-cda-lab/malpaca-pub
-paper_link: https://pure.tudelft.nl/admin/files/83294383/NadeemA_MAAIDL_14_manuscript.pdf
+paper_link: http://pure.tudelft.nl/ws/portalfiles/portal/83294383/NadeemA_MAAIDL_14_manuscript.pdf
 venue: Malware Analysis using Artificial Intelligence and Deep Learning, Springer, 2020
 ---
 
