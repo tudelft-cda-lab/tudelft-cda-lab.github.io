@@ -67,7 +67,9 @@ padding-bottom:25px;
 text-shadow : 0 0 5px #F97304;
 }
 
-
+.project-box {
+  margin-bottom: 25px;
+}
 
 .portfolio-item {
   border-radius: 25px;
