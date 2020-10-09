@@ -24,8 +24,8 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate: 5
-paginate_path: projects/page:num
+#paginate: 5
+#paginate_path: projects/page:num
 
 
 # 4. Jekyll settings
