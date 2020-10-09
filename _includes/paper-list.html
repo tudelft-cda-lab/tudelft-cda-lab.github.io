@@ -1,8 +1,7 @@
 {% assign paperByYear =
     site.papers | group_by_exp:"paper", "paper.year | date: '%Y'" %}
-{{ paperByYear | reverse }}
 <ul class="list">
-{% for year in paperByYear %}
+{% for year in paperByYear reversed %}
   {% for paper in year.items %}
 	<li>
 	  <div class="article">
