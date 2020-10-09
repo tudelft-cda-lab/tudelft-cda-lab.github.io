@@ -4,7 +4,8 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 title: Learning Optimal Classification Trees Using a Binary Linear Program Formulation
 author_list: Sicco Verwer, Yingqian Zhang
-venue: Proceedings of the AAAI Conference on Artificial Intelligence, 2019.
+venue: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2019
 paper_link: https://www.aaai.org/ojs/index.php/AAAI/article/view/3978
 ---
 

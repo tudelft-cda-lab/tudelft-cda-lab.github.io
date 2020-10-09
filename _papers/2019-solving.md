@@ -2,9 +2,10 @@
 layout: paper
 feature_image: "https://picsum.photos/2560/600?image=872"
 
-title: Solving bin-packing problems under privacy preservation: Possibilities and trade-offs
+title: Solving bin-packing problems under privacy preservation&#58; Possibilities and trade-offs
 author_list: Rowan Hoogervorst, Yingqian Zhang, Gamze Tillem, Zekeriya Erkin, Sicco Verwer
-venue: Information Sciences, 2019.
+venue: Information Sciences
+year: 2019
 paper_link: https://www.sciencedirect.com/science/article/pii/S0020025519303974
 ---
 

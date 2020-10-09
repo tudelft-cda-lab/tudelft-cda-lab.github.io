@@ -6,7 +6,8 @@ title: The Robust Malware Detection Challenge and Greedy Random Accelerated Mult
 author_list: Sicco Verwer, Azqa Nadeem, Christian Hammerschmidt, Laurens Bliek, Abdullah Al-Dujaili, Una-May O'Reilly
 code_link: https://github.com/tudelft-cda-lab/GRAMS
 pre_link: http://pure.tudelft.nl/ws/portalfiles/portal/83427524/GRAMS_draft_2_.pdf
-venue: Artificial Intelligence and Security (AISec), 2020
+venue: Artificial Intelligence and Security (AISec)
+year: 2020
 ---
 
 

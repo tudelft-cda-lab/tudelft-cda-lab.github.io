@@ -1,5 +1,8 @@
+{% assign paperByYear =
+    site.papers | group_by_exp:"paper", "paper.year | date: '%Y'" %}
 <ul class="list">
-  {% for paper in site.papers %}
+{% for year in paperByYear %}
+  {% for paper in year.items %}
 	<li>
 	  <div class="article">
 	  
@@ -11,15 +14,12 @@
 		
 		{% if paper.paper_link %}
 			<button type="button" class="btn btn-info btn-sm"><a href="{{ paper.paper_link }}">Paper</a></button>
+		{% elsif paper.pre_link %}	
+			<button type="button" class="btn btn-info btn-sm"><a href="{{ paper.pre_link }}">Pre-print</a></button>
 		{% else %}
 			<button type="button" class="btn btn-info btn-sm disabled"><a>Paper</a></button>
 		{% endif %}
 		
-		{% if paper.pre_link %}
-			<button type="button" class="btn btn-info btn-sm"><a href="{{ paper.pre_link }}">Pre-print</a></button>
-		{% else %}
-			<button type="button" class="btn btn-info btn-sm disabled"><a>Pre-print</a></button>
-		{% endif %}
 		
 		{% if paper.code_link == # %}
 			<button type="button" class="btn btn-info btn-sm disabled"><a>Code</a></button>
@@ -28,5 +28,6 @@
 		{% endif %}
 	  </div>
 	</li>
+  {% endfor %}
   {% endfor %}
 </ul>

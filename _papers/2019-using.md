@@ -4,7 +4,8 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 title: Using Datasets from Industrial Control Systems for Cyber Security Research and Education
 author_list: Qin Lin, Sicco Verwer, Robert Kooij, Aditya Mathur
-venue: International Conference on Critical Information Infrastructures Security, 2019.
+venue: International Conference on Critical Information Infrastructures Security
+year: 2019
 paper_link: https://link.springer.com/chapter/10.1007/978-3-030-37670-3_10
 ---
 
