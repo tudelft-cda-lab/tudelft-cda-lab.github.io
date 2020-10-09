@@ -1,0 +1,16 @@
+<ul class="list">
+  {% for tool in site.tools %}
+	<div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="{{ code_link }}">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2"> {{ tool.title }} </div>
+                <p class="mb-0">{{ content }}</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="../assets/default-offline-image.png" alt="">
+          </a>
+        </div>
+  {% endfor %}
+</ul>

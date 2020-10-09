@@ -58,6 +58,8 @@ navigation_header:
   url: /projects/
 - title: Publications
   url: /publications/
+- title: Tools
+  url: /tools/
 - title: Contact
   url: /contact/
 
@@ -85,6 +87,12 @@ collections:
     feature_image: "https://picsum.photos/2560/600?image=866"
     feature_text: |
       # Recent Publications
+  tools:
+    title: Tools
+    output: false
+    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_text: |
+      # Tools
   people:
     title: People
     output: true
