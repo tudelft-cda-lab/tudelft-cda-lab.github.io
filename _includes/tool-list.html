@@ -4,8 +4,8 @@
 	  <a class="portfolio-item" href="{{ tool.code_link }}">
 		<div class="caption">
 		  <div class="caption-content">
-			<div class="h2"> {{ tool.title }} </div>
-			<p class="mb-0">{{ tool.excerpt | markdownify | truncatewords: 100 }}</p>
+			<h3> {{ tool.title }} </h3>
+			<p class="mb-0">{{ tool.excerpt | markdownify | truncatewords: 40 }}</p>
 		  </div>
 		</div>
 		<img class="img-fluid" src="../assets/default-offline-image.png" alt="">

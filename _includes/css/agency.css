@@ -75,6 +75,7 @@ text-shadow : 0 0 5px #F97304;
   position: relative;
   overflow: hidden;
   max-width: 530px;
+
   margin: auto auto 1rem;
 }
 
@@ -82,7 +83,7 @@ text-shadow : 0 0 5px #F97304;
   display: flex;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #{{ site.data.template.color.secondary }}, #fde3cc)
+  background: linear-gradient(to bottom, #F97304, #fde3cc);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -90,17 +91,16 @@ text-shadow : 0 0 5px #F97304;
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #000;
   margin: auto 2rem 2rem;
 }
 
-.portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
+.caption .caption-content h3 {
+  font-size: 4.0rem;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
 }
 
@@ -117,12 +117,14 @@ text-shadow : 0 0 5px #F97304;
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
+    
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
   .portfolio-item img {
+
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
@@ -130,17 +132,21 @@ text-shadow : 0 0 5px #F97304;
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-	border-radius: 25px;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: #{{ site.data.template.color.secondary }};
+
+    background: linear-gradient(to bottom, #03749C, #ffffff);
     -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    clip-path: inset(1rem);
+  }
+.portfolio-item:hover .caption-content {
+
+      color: black  ;
+
   }
 }
-
 
 
 .feature {
