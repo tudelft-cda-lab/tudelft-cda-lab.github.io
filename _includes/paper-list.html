@@ -8,7 +8,7 @@
 	  
 		<h4 class="text-capitalize">{{ paper.title }}</h4>
 		<span class="text-muted">{{ paper.author_list }}</span> <br/>
-		<span class="label"><a>{{ paper.venue }}</a></span>
+		<span class="label"><a>{{ paper.venue }},&nbsp;({{ paper.year }}).</a></span>
 		
 		{{ paper.excerpt | markdownify | truncatewords: 100 }} <br/>
 		
