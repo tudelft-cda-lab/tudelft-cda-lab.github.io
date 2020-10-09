@@ -12,12 +12,12 @@ Welcome to the Cyber Analytics lab at Delft University of Technology. We perform
 ## Recent News
 
 - Sicco Verwer and Toon Calders have received the [Test of Time Award](https://www.tudelft.nl/en/2020/ewi/insy/cyber-security/test-of-time-award-for-cys-paper/) for their paper _[Three naive Bayes approaches for discrimination-free classification](https://link.springer.com/article/10.1007/s10618-010-0190-x)_ at ECML-PKDD 2020.
-- Our paper entitled _The Robust Malware Detection Challenge And Greedy Random Accelerated Multi-Bit Search_
+- Our paper entitled <i>The Robust Malware Detection Challenge And Greedy Random Accelerated Multi-Bit Search</i>
 by Sicco Verwer, Azqa Nadeem, Christian Hammerschmidt, Laurens Bliek, Abdullah Al-Dujaili, Una-May O'Reilly
 has been accepted to <a>Artificial Intelligence and Security (AISec)</a> workshop co-located with ACM CCS 2020.
-- Our paper entitled _Hybrid Connection And Host Clustering For Community Detection In Spatial-Temporal Network Data_
+- Our paper entitled <i>Hybrid Connection And Host Clustering For Community Detection In Spatial-Temporal Network Data</i>
 by Mark Patrick Roeling, Azqa Nadeem, Sicco Verwer
 has been accepted to the <a>Machine Learning for Cybersecurity (MLCS)</a> workshop, co-located with the ECML-PKDD 2020.
-- Our paper entitled _Beyond Labeling Using Clustering To Build Network Behavioral Profiles Of Malware Families_
+- Our paper entitled <i>Beyond Labeling Using Clustering To Build Network Behavioral Profiles Of Malware Families</i>
 by Azqa Nadeem, Christian Hammerschmidt, Carlos H. Ganan, Sicco Verwer
 will appear as a chapter in the <a>Malware Analysis using Artificial Intelligence and Deep Learning (MAAIDL)</a> book by Springer.
