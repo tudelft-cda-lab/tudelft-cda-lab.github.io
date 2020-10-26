@@ -2,7 +2,7 @@
 name: Sicco Verwer
 pic: sicco.jpg # Picture file name
 role: leader
-position: Assistant Professor (PI)
+position: Associate Professor (PI)
 social:
 - title: twitter
   url: https://twitter.com/siccoverwer
