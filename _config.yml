@@ -61,7 +61,7 @@ navigation_header:
 - title: Tools
   url: /tools/
 - title: Research blog
-  url: /blog/
+  url: /researchblog/
 - title: Contact
   url: /contact/
 
@@ -101,7 +101,7 @@ collections:
     feature_image: "https://picsum.photos/2560/600?image=866"
     feature_text: |
       # People
-  blog:
+  blogposts:
     title: Research Blog
     output: false
     feature_image: "https://picsum.photos/2560/600?image=866"
@@ -143,12 +143,6 @@ defaults:
       type: "posts"
     values:
       layout: post # Set the default layout for posts
-  -
-    scope:
-      path: ""
-      type: "blog"
-    values:
-      layout: resblog # Set the default layout for blog
   -
     scope:
       path: ""
