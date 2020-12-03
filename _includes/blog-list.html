@@ -1,10 +1,20 @@
 {% if paginator.blog %}
     <ul class="list  list--posts">
-      {% for page in paginator.blog %}
+      {% for page in paginator.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-			<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
-            {% include blog-meta.html %}
+
+            {% if page.project-pic %}
+				<a href="{{ site.baseurl }}{{ page.url }}">
+				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
+				<h3>{{ page.title }}</h3>
+				</img>
+				</a>
+				
+			{% else %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
+			{% endif %}
+            {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
           </article>
@@ -17,7 +27,15 @@
       {% for page in site.blog %}
         <li class="item  item--post">
           <article class="article  article--post">
-			<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
+		    {% if page.project-pic %}
+				<a href="{{ site.baseurl }}{{ page.url }}">
+				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
+				<h3>{{ page.title }}</h3>
+				</img>
+				</a>
+			{% else %}
+				<a href="{{ site.baseurl }}{{ page.url }}"><h3>{{ page.title }}</h3></a>
+			{% endif %}
             {% include blog-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 60 }}
 
