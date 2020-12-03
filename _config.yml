@@ -146,6 +146,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "blog"
+    values:
+      layout: resblog # Set the default layout for blog
+  -
+    scope:
+      path: ""
       type: "pages"
     values:
       layout: page # Set the default layout for pages
