@@ -1,8 +1,8 @@
 ---
 name: Clinton Cao
 pic: clinton.png
-role: msc
-position: MSc. student
+role: phd
+position: PhD Candidate
 social:
 - title: twitter
   url: https://twitter.com/CaoClinton
