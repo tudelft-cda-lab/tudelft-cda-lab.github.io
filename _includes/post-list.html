@@ -5,7 +5,7 @@
         <li class="item  item--post">
           <article class="article  article--post">
 
-            {% if page.project-pic %}
+            {% if page.project-pic and page.show-in-list %}
 				<a href="{{ site.baseurl }}{{ page.url }}">
 				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
 				<h3>{{ page.title }}</h3>
@@ -28,7 +28,7 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-		    {% if page.project-pic %}
+		    {% if page.project-pic and page.show-in-list%}
 				<a href="{{ site.baseurl }}{{ page.url }}">
 				<img src="{{ page.project-pic }}" width="250" class="img-thumbnail pull-right mr-2">
 				<h3>{{ page.title }}</h3>
