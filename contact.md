@@ -13,7 +13,7 @@ If you're inquiring about open positions, send us an email at <s.e.verwer@tudelf
 <br/><br/><br/>
 ##### Visting address: 
 
-<p><i class="fa fa-map-marker" ></i> address... </p>
+<p><i class="fa fa-map-marker" ></i> Van Mourik Broekmanweg 6, 2628 XE Delft </p>
 
 
 <br/><br/><br/>
