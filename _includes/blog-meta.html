@@ -10,7 +10,7 @@
   {% endcapture %}
 {% endif %}
 
-<p>
+<small style="font-size:0.8em;">
   {% assign date_format = site.date_format | default: "%d %b %Y" %}
   {% capture author %}
 	<span><a>{{ page.author}} </a></span>  
@@ -18,4 +18,4 @@
   
   {{ author | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date: date_format }}</time>
 
-</p>
+</small>
