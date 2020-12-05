@@ -103,7 +103,7 @@ collections:
       # People
   blogposts:
     title: Research Blog
-    output: false
+    output: true
     feature_image: "https://picsum.photos/2560/600?image=866"
     feature_text: |
       # Research Blog
