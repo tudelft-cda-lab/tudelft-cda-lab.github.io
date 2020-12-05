@@ -17,9 +17,9 @@ If you're inquiring about open positions, send us an email at <s.e.verwer@tudelf
 
 
 <br/><br/><br/>
-## Open Positions
+### Open Positions
 
-### PhD / Postdoc on Logging Engineering and Analysis
+#### PhD / Postdoc on Logging Engineering and Analysis
 
 Developers and operations teams rely on monitoring to understand how 
 the system behaves in production. Given the rich nature of data produced 
