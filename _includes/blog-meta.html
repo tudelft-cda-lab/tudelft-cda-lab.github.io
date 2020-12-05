@@ -10,12 +10,12 @@
   {% endcapture %}
 {% endif %}
 
-<small class="small  post-meta">
+<p>
   {% assign date_format = site.date_format | default: "%d %b %Y" %}
   {% capture author %}
-	<span class="label  label--category"><a>{{ page.author}} </a></span>  
+	<span><a>{{ page.author}} </a></span>  
 	{% endcapture %}
   
   {{ author | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date: date_format }}</time>
 
-</small>
+</p>
