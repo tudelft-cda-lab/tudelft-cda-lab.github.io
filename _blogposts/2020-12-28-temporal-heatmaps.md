@@ -3,7 +3,7 @@ layout: blogpost
 title: Temporal Heatmaps for Visualizing Sequential Features
 author: Azqa Nadeem
 feature_image: "https://picsum.photos/2560/600?image=872"
-excerpt: In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data.
+excerpt: In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data...
 ---
 
 In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data.
@@ -40,7 +40,7 @@ Using machine learning, clustering may be one way to approach this problem. An i
 If we were to collapse the sequences into aggregates, such as mean and standard deviation, there is a chance that we mistakenly consider two sequences as similar (due to similar aggregates) that were temporally different. Fig. 2 shows one such example, where the sequences have identical mean, standard deviation, minima and maxima, yet they are temporally different.
 
 <figure>
-  <img src="same-stat-diff-seq.png"
+  <img src="../../assets/blog-img/temporal-heatmap/same-stat-diff-seq.png"
     alt="">
     <figcaption>Fig 2. Two different sequences, both having Mean= 2.1, Median= 2, Std. dev= 0.83, and Variance= 0.69. </figcaption>
 </figure>
