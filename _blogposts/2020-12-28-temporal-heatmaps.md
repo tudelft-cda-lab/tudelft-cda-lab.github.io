@@ -177,42 +177,44 @@ Did you know that the banner image of our [group's website](https://cyber-analyt
 
 Other than the obvious benefit of visualizing sequential data for verifying clustering results and data exploration, we like the temporal heatmaps because each clustering attempt produces fun images. Here are some recent ones generated when clustering network traffic of IoT devices. _Enjoy!_
 
+<figure>
+<div class="row">
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex0.png" alt="" style="width:100%">
+  </div>
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex1.png" alt="" style="width:100%">
+  </div>
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex2.png" alt="" style="width:100%">
+  </div>
+</div>
+  </figure>
+    
+<figure>
+<div class="row">
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex3.png" alt="" style="width:100%">
+  </div>
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex4.png" alt="" style="width:100%">
+  </div>
+  <div class="column-3">
+    <img src="../../assets/blog-img/temporal-heatmap/ex5.png" alt="" style="width:100%">
+  </div>
+</div>
+  </figure>
+      
   <figure>
   <div class="row">
     <div class="column-3">
-      <img src="../../assets/blog-img/temporal-heatmap/ex0.png" alt="" style="width:100%">
+      <img src="../../assets/blog-img/temporal-heatmap/ex6.png" alt="" style="width:100%">
     </div>
     <div class="column-3">
-      <img src="../../assets/blog-img/temporal-heatmap/ex1.png" alt="" style="width:100%">
+      <img src="../../assets/blog-img/temporal-heatmap/ex7.png" alt="" style="width:100%">
     </div>
     <div class="column-3">
-      <img src="../../assets/blog-img/temporal-heatmap/ex2.png" alt="" style="width:100%">
+      <img src="../../assets/blog-img/temporal-heatmap/ex8.png" alt="" style="width:100%">
     </div>
   </div>
     </figure>
-    <figure>
-    <div class="row">
-      <div class="column-3">
-        <img src="../../assets/blog-img/temporal-heatmap/ex3.png" alt="" style="width:100%">
-      </div>
-      <div class="column-3">
-        <img src="../../assets/blog-img/temporal-heatmap/ex4.png" alt="" style="width:100%">
-      </div>
-      <div class="column-3">
-        <img src="../../assets/blog-img/temporal-heatmap/ex5.png" alt="" style="width:100%">
-      </div>
-    </div>
-      </figure>
-      <figure>
-      <div class="row">
-        <div class="column-3">
-          <img src="../../assets/blog-img/temporal-heatmap/ex6.png" alt="" style="width:100%">
-        </div>
-        <div class="column-3">
-          <img src="../../assets/blog-img/temporal-heatmap/ex7.png" alt="" style="width:100%">
-        </div>
-        <div class="column-3">
-          <img src="../../assets/blog-img/temporal-heatmap/ex8.png" alt="" style="width:100%">
-        </div>
-      </div>
-        </figure>
