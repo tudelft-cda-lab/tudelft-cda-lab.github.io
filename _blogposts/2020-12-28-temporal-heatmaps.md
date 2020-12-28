@@ -40,7 +40,7 @@ Using machine learning, clustering may be one way to approach this problem. An i
 If we were to collapse the sequences into aggregates, such as mean and standard deviation, there is a chance that we mistakenly consider two sequences as similar (due to similar aggregates) that were temporally different. Fig. 2 shows one such example, where the sequences have identical mean, standard deviation, minima and maxima, yet they are temporally different.
 
 <figure>
-  <img src="../../assets/blog-img/temporal-heatmap/same-stat-diff-seq.png"
+  <img src="../../assets/blog-img/temporal-heatmap/same-stat-diff-seq.PNG"
     alt="">
     <figcaption>Fig 2. Two different sequences, both having Mean= 2.1, Median= 2, Std. dev= 0.83, and Variance= 0.69. </figcaption>
 </figure>
