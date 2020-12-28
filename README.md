@@ -5,7 +5,7 @@ This is the repository for the CA lab's website. It is deployed using `github.pa
 ### Usage
 
 #### Adding a new lab member
-1. Add the member's picture in the `/assets/people/` folder.
+1. Add the member's picture in the `/assets/people/` folder. _If no picture is available, use either `female-no.png` or `male-no.png` as default._
 2. Make a file with the member's information (name, position, etc.) and place it in the `_people` folder (Changes in `_config.yml` are no longer supported).
 3. Fill the filename in `pic` field,
 4. and assign them a role from the given `roles` collection in `_config.yml`. You can even add a new role.
