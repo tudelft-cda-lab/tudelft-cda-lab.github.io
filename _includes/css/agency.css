@@ -4,6 +4,32 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.column-3 {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin white dotted;
+}
+
+img.scaled {
+  width: 60%;
+}
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
