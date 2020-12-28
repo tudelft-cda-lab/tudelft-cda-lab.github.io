@@ -3,8 +3,6 @@ layout: blogpost
 title: Temporal Heatmaps for Visualizing Sequential Features
 author: Azqa Nadeem
 feature_image: "https://picsum.photos/2560/600?image=872"
-feature_text: |
-# Research blog
 excerpt: In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data...
 ---
 
