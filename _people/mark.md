@@ -1,7 +1,7 @@
 ---
 name: Mark Patrick Roeling
 pic: male-no.png
-role: phd
+role: alumni
 position: PhD Candidate
 social:
 - title: twitter

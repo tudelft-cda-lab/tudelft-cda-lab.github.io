@@ -1,7 +1,7 @@
 ---
 name: Laurens Bliek
 pic: laurens.jpg
-role: postdoc
+role: alumni
 position: Postdoctoral Researcher
 social:
 - title: twitter

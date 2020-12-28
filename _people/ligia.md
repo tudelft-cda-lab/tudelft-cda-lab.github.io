@@ -1,7 +1,7 @@
 ---
 name: Ligia Zorello
 pic: ligia.jpg
-role: external
+role: alumni
 position: Visiting PhD candidate
 social:
 - title: twitter
