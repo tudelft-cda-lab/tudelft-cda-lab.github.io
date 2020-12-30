@@ -3,7 +3,7 @@ layout: blogpost
 title: Temporal Heatmaps for Visualizing Sequential Features
 author: Azqa Nadeem
 feature_image: "https://picsum.photos/2560/600?image=872"
-excerpt: In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data...
+excerpt: In this article, we show how to visualize sequential data with Temporal Heatmaps, using examples of analyzing malware and IoT device behavior. You can access code snippets...
 date: 2020-12-28
 ---
 
