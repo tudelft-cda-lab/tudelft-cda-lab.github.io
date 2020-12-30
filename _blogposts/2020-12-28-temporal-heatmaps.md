@@ -10,7 +10,11 @@ date: 2020-12-28
 In this article, we show how to visualize sequential data with _Temporal_ _Heatmaps_, using examples of analyzing malware and IoT device behavior. You can access code snippets from this [Jupyter notebook](https://github.com/tudelft-cda-lab/tudelft-cda-lab.github.io/blob/master/assets/blog-code/temporal-heatmap/Temporal-heatmaps-demo.ipynb).
 
 ## Sequence data
-Sequences are everywhere, and it is easy to see why: time is continuous, so why not the data that models behavior? This sequence data can be anything, ranging from speedometer measurements for a car, to packet sizes transferred over a network. This type of data is used regularly in many fields, e.g. to perform [anomaly detection](https://ieeexplore.ieee.org/abstract/document/5687485?casa_token=hVcfR4TigS0AAAAA:AtZ_IXMnVu3Gz_Rj59Y5V69mivoM0SRNwo8ACKll0Tk094i-KawjwJHgPlGNkBdBMfWzDNOQ_A) in cybersecurity, [gesture recognition](https://d1wqtxts1xzle7.cloudfront.net/51375482/Multi-dimensional_dynamic_time_warping_f20170116-20817-m84hob.pdf?1484569508=&response-content-disposition=inline%3B+filename%3DMulti_dimensional_dynamic_time_warping_f.pdf&Expires=1609193277&Signature=VedGoKuobPL71ke2pXImPE3G1xgKJ4QwqsC156hKEI8AJVYkaLZPZjI3uDzXgEP-denEQKoYcMJvYOt667QMSWdhW9XccXB6P9YVo-HqGSly3qONqtQdCWOQG3DR7HGBsu7~txyX2fQBP-zIYU8T79Cl0fbq6mL3ILCWfqr7LQASVDdbO3ySylxtKae~tMaK1eYp2yt6f3Clh8WHLmdi5kyeFkcLOaUozwkIlQwlvmBry6SdDg1-1x4riWsRrISPgVHnvCx4nQvbalhK2o-osV9kN7jquvWlkHvHAN-k-a-DlAh4GJzFx3W4rPZiTh9ShKDiXwz~m5~Ifby7WLw9Uw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) in computer vision, and [DNA sequencing](https://www.future-science.com/doi/full/10.2144/000112499) in bio-informatics.
+Sequences are everywhere, and it is easy to see why: time is continuous, so why not the data that models behavior? This sequence data can be anything, ranging from speedometer measurements for a car, to packet sizes transferred over a network. 
+This type of data is used regularly in many fields, e.g. to perform 
+[anomaly detection](https://ieeexplore.ieee.org/abstract/document/5687485?casa_token=hVcfR4TigS0AAAAA:AtZ_IXMnVu3Gz_Rj59Y5V69mivoM0SRNwo8ACKll0Tk094i-KawjwJHgPlGNkBdBMfWzDNOQ_A) in cybersecurity, 
+[gesture recognition](https://www.researchgate.net/publication/228740947_Multi-dimensional_dynamic_time_warping_for_gesture_recognition) in computer vision, 
+and [DNA sequencing](https://www.future-science.com/doi/full/10.2144/000112499) in bio-informatics.
 
 A common problem that we have to deal with when handling sequences is: how to measure the similarity between them? Let us consider a use-case:
 
@@ -224,7 +228,7 @@ Other than the obvious benefit of visualizing sequential data for verifying clus
 	
 <hr/>
 ## References
-- Nadeem, A., Hammerschmidt, C., Gañán, C. H., & Verwer, S. Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families. In Malware Analysis Using Artificial Intelligence and Deep Learning (pp. 381-409). Springer, Cham.
-- Ten Holt, G. A., Reinders, M. J., & Hendriks, E. A. (2007, June). Multi-dimensional dynamic time warping for gesture recognition. In Thirteenth annual conference of the Advanced School for Computing and Imaging (Vol. 300, p. 1).
-- Platt, A. R., Woodhall, R. W., & George Jr, A. L. (2007). Improved DNA sequencing quality and efficiency using an optimized fast cycle sequencing protocol. Biotechniques, 43(1), 58-62.
-- Teng, M. (2010, December). Anomaly detection on time series. In 2010 IEEE International Conference on Progress in Informatics and Computing (Vol. 1, pp. 603-608). IEEE.
+- Nadeem, A., Hammerschmidt, C., Gañán, C. H., & Verwer, S. [Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families.](https://link.springer.com/chapter/10.1007%2F978-3-030-62582-5_15) In Malware Analysis Using Artificial Intelligence and Deep Learning (pp. 381-409). Springer, Cham.
+- Ten Holt, G. A., Reinders, M. J., & Hendriks, E. A. (2007, June). [Multi-dimensional dynamic time warping for gesture recognition.](https://www.researchgate.net/publication/228740947_Multi-dimensional_dynamic_time_warping_for_gesture_recognition) In Thirteenth annual conference of the Advanced School for Computing and Imaging (Vol. 300, p. 1).
+- Platt, A. R., Woodhall, R. W., & George Jr, A. L. (2007). [Improved DNA sequencing quality and efficiency using an optimized fast cycle sequencing protocol.](https://www.future-science.com/doi/full/10.2144/000112499) Biotechniques, 43(1), 58-62.
+- Teng, M. (2010, December). [Anomaly detection on time series.](https://ieeexplore.ieee.org/abstract/document/5687485?casa_token=hVcfR4TigS0AAAAA:AtZ_IXMnVu3Gz_Rj59Y5V69mivoM0SRNwo8ACKll0Tk094i-KawjwJHgPlGNkBdBMfWzDNOQ_A) In 2010 IEEE International Conference on Progress in Informatics and Computing (Vol. 1, pp. 603-608). IEEE.
