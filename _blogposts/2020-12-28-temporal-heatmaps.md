@@ -4,6 +4,7 @@ title: Temporal Heatmaps for Visualizing Sequential Features
 author: Azqa Nadeem
 feature_image: "https://picsum.photos/2560/600?image=872"
 excerpt: In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data...
+date: 2020-12-28
 ---
 
 In this article, we introduce the notion of _Temporal Heatmaps_ as a solution to visualize sequential data.
