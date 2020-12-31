@@ -68,8 +68,11 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
+- title: twitter
+  text: Twitter 
+  url: "https://twitter.com/analytics_cyber/"
 - title: github
-  text: Created by CAL 
+  text: Github 
   url: "https://github.com/tudelft-cda-lab/"
 - title: globe
   text: Powered by GitHub Pages

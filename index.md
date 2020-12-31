@@ -11,6 +11,7 @@ Welcome to the Cyber Analytics lab at Delft University of Technology. We perform
 <br/><br/><br/>
 ## Recent News
 
+- We have a new twitter account [@analytics_cyber](https://twitter.com/analytics_cyber)! 
 - Sicco Verwer and Toon Calders have received the [Test of Time Award](https://www.tudelft.nl/en/2020/ewi/insy/cyber-security/test-of-time-award-for-cys-paper/) for their paper _[Three naive Bayes approaches for discrimination-free classification](https://link.springer.com/article/10.1007/s10618-010-0190-x)_ at ECML-PKDD 2020.
 - Our paper entitled "The Robust Malware Detection Challenge And Greedy Random Accelerated Multi-Bit Search"
 by Sicco Verwer, Azqa Nadeem, Christian Hammerschmidt, Laurens Bliek, Abdullah Al-Dujaili, Una-May O'Reilly
