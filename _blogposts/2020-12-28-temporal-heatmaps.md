@@ -230,7 +230,7 @@ Other than the obvious benefit of visualizing sequential data for verifying clus
 
 If you use temporal heatmaps in your research, please consider citing the following reference:
 
-> &#64;incollection{nadeembeyond,
+> <a>&#64;incollection</a>{nadeembeyond,
 >  title={Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families},
 >  author={Nadeem, Azqa and Hammerschmidt, Christian and Ga{\~n}{\'a}n, Carlos H and Verwer, Sicco},
 >  booktitle={Malware Analysis Using Artificial Intelligence and Deep Learning},
