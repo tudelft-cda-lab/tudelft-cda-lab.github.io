@@ -1,11 +1,11 @@
 ---
 name: Arjen Brussen
-pic: male-no.png
+pic: arjen.png
 role: msc
 position: MSc. student
 social:
 - title: twitter
   url: #
 - title: globe
-  url: #
+  url: # https://www.linkedin.com/in/arjenbrussen/
 ---
