@@ -7,19 +7,7 @@ version: 2
 updates:
 
   # Maintain dependencies for GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-
-  # Maintain dependencies for npm
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-
-  # Maintain dependencies for Composer
-  - package-ecosystem: "composer"
+  - package-ecosystem: "gem"
     directory: "/"
     schedule:
       interval: "daily"
