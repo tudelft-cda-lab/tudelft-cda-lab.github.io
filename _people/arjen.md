@@ -7,5 +7,5 @@ social:
 - title: twitter
   url: #
 - title: globe
-  url: # https://www.linkedin.com/in/arjenbrussen/
+  url: https://www.linkedin.com/in/arjenbrussen/
 ---
