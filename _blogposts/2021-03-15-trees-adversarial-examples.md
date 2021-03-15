@@ -179,7 +179,7 @@ To get an idea of just how fragile the model is under adversarial influence we c
 ## In summary
 We briefly introduced decision trees, tree ensembles and how to attack these models with adversarial examples. We saw that on a small toy dataset the decision regions of these models look chaotic and might cause fragility to adversarial examples. Testing on a real dataset with handwritten digits we saw that a random forest was easily fooled by applying a tiny amount of noise onto the images.
 
-In our research group we are interested in how to train trees and their ensembles to be robust against adversarial examples so please reach out with ideas / questions. In an upcoming blog post we will look at GROOT, an efficient algorithm for training robust decision trees.
+In our research group we are interested in how to train trees and their ensembles to be robust against adversarial examples so please reach out with ideas / questions. In an upcoming blog post we will look at [GROOT](https://github.com/tudelft-cda-lab/GROOT), an efficient algorithm for training robust decision trees.
 
 ## References
 [1] Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples." arXiv preprint arXiv:1412.6572 (2014).
