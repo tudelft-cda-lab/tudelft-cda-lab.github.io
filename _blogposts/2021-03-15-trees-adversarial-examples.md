@@ -2,6 +2,7 @@
 layout: blogpost
 title: Decision trees suffer from adversarial examples too!
 author: Daniël Vos
+feature_image: "https://picsum.photos/2560/600?image=872"
 excerpt: For many years now we know about the fragility of neural networks under adversarial attacks. But did you know that decision trees and their ensembles suffer from the same problem?
 date: 2021-03-15
 ---
@@ -127,11 +128,11 @@ For this dataset we will set aside the single decision tree model as it is too s
 |---------------|----------|----------------------|
 | Random forest | 99.7%    | 16.0%                |
 
-After splitting in a 70%-30% train-test split the model predicts *99.7%* of the test set correctly! Clearly this is a very good model, but is it robust? No. Given that an attacker can change each pixel's brightness by 10% of the range, the attacker is successful in creating adversarial examples for **84%** of the samples. That means the resulting adversarial accuracy is just **16%**, worse than randomly guessing the label.
+After splitting in a 70%-30% train-test split the model predicts **99.7%** of the test set correctly! Clearly this is a very good model, but is it robust? No. Given that an attacker can change each pixel's brightness by 10% of the range, the attacker is successful in creating adversarial examples for **84%** of the samples. That means the resulting adversarial accuracy is just **16%**, worse than randomly guessing the label.
 
 To get an idea of just how fragile the model is under adversarial influence we can look at some optimal adversarial examples. These are optimal in the sense that the [L-infinity](https://en.wikipedia.org/wiki/Chebyshev_distance) distance between the original sample and the misclassified adversarial example is minimal.
 
-<figure>
+<figure style="width:70%">
 <div class="row">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_0.svg" alt="original sample" style="width:100%">
