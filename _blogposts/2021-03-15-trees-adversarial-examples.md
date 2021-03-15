@@ -132,8 +132,8 @@ After splitting in a 70%-30% train-test split the model predicts **99.7%** of th
 
 To get an idea of just how fragile the model is under adversarial influence we can look at some optimal adversarial examples. These are optimal in the sense that the [L-infinity](https://en.wikipedia.org/wiki/Chebyshev_distance) distance between the original sample and the misclassified adversarial example is minimal.
 
-<figure style="width:70%">
-<div class="row">
+<figure>
+<div class="row" style="width:70%">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_0.svg" alt="original sample" style="width:100%">
   </div>
@@ -141,7 +141,7 @@ To get an idea of just how fragile the model is under adversarial influence we c
     <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_0.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
-<div class="row">
+<div class="row" style="width:70%">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_1.svg" alt="original sample" style="width:100%">
   </div>
@@ -149,7 +149,7 @@ To get an idea of just how fragile the model is under adversarial influence we c
     <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_1.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
-<div class="row">
+<div class="row" style="width:70%">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_2.svg" alt="original sample" style="width:100%">
   </div>
@@ -157,7 +157,7 @@ To get an idea of just how fragile the model is under adversarial influence we c
     <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_2.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
-<div class="row">
+<div class="row" style="width:70%">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_3.svg" alt="original sample" style="width:100%">
   </div>
@@ -165,7 +165,7 @@ To get an idea of just how fragile the model is under adversarial influence we c
     <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_3.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
-<div class="row">
+<div class="row" style="width:70%">
   <div class="column-2">
     <img src="../../assets/blog-img/trees-adversarial-examples/original_4.svg" alt="original sample" style="width:100%">
   </div>
