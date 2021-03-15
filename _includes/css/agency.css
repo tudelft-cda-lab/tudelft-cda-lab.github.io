@@ -10,6 +10,12 @@
   padding: 1px;
 }
 
+.column-2 {
+  float: left;
+  width: 49.5%;
+  padding: 1px;
+}
+
 
 .row::after {
   content: "";

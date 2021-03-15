@@ -13,7 +13,7 @@ Adversarial examples are inputs with small changes applied to them to trick a mo
 
 <figure>
   <img src="../../assets/blog-img/trees-adversarial-examples/neural_net_adv_example.png"
-    alt="Adversarial example for a neural network">
+    alt="Adversarial example for a neural network" style="width:80%">
     <figcaption>Fig 1. (left) a neural network correctly predicts that the image contains a panda, (middle) some carefully crafted noise to be added onto the image and (right) the combined image that model wrongly predicts as gibbon. </figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Decision trees are very simple models that consist of decision nodes whose decis
 
 <figure>
   <img src="../../assets/blog-img/trees-adversarial-examples/decision_tree.png"
-    alt="Decision tree">
+    alt="Decision tree" style="width:30%">
     <figcaption>Fig 2. A single decision tree that might be used for credit card fraud detection. Given an input we can follow a path through the decision nodes to reach a final prediction. </figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Let's look at some decision trees and ensembles trained on a 2D toy dataset, thi
 
 <figure>
   <img src="../../assets/blog-img/trees-adversarial-examples/example_toy.svg"
-    alt="Decision tree">
+    alt="Decision tree" style="width:50%">
     <figcaption>Fig 3. Ground truth tree and 100 samples generated from it. 10% of the labels were flipped to generate some noise. </figcaption>
 </figure>
 
@@ -120,6 +120,7 @@ Now that we have seen a small toy dataset and gotten some intuition on how decis
 
 For this dataset we will set aside the single decision tree model as it is too simplistic for datasets with hundreds of important features (pixels). For simplicity, we will train a random forest only on two classes of the data: the model will try to distinguish between handwritten '2's and '6's. The forest contains 100 trees, only creates splits for 10 or more samples and only creates leaves for 5 or more samples.
 
+{:.test_table}
 | Model         | Accuracy | Adversarial accuracy |
 |---------------|----------|----------------------|
 | Random forest | 99.7%    | 16.0%                |
