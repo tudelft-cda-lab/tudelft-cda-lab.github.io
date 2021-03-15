@@ -3,23 +3,23 @@ layout: blogpost
 title: Decision trees suffer from adversarial examples too!
 author: Daniël Vos
 excerpt: For many years now we know about the fragility of neural networks under adversarial attacks. But did you know that decision trees and their ensembles suffer from the same problem?
-date: 2020-03-15
+date: 2021-03-15
 ---
 
 Oh what amazing things we can do with machine learning. We can use it to recognize objects on pictures, to translate text between all kinds of languages, to detect diseases, even drive us around in cars! A great annoyance to researchers, however, is the existence of adversarial examples. 
 
 ## Adversarial examples
-Adversarial examples are inputs with small changes applied to them to trick a model into making bad decisions. Below we see the famous example from [[1]](#References) in which a panda is wrongly classified as gibbon after applying some tiny noise.
+Adversarial examples are inputs with small changes applied to them to trick a model into making bad decisions. Below we see the famous example from [[1]](#references) in which a panda is wrongly classified as gibbon after applying some tiny noise.
 
 <figure>
-  <img src="assets/neural_net_adv_example.png"
+  <img src="../../assets/blog-img/trees-adversarial-examples/neural_net_adv_example.png"
     alt="Adversarial example for a neural network">
     <figcaption>Fig 1. (left) a neural network correctly predicts that the image contains a panda, (middle) some carefully crafted noise to be added onto the image and (right) the combined image that model wrongly predicts as gibbon. </figcaption>
 </figure>
 
 Not only is the difference between the left and right image imperceptable to humans, the classifier is also extremely certain in its 'gibbon' prediction. The existence of similar adversarial examples have also been found in many other contexts such as speech-to-text and reinforcement learning.
 
-Naturally we want to prevent our models from being susceptible to these attacks so it is unsurprising that the discovery of adversarial examples has sparked a lot of research into robust neural networks. And with success! For example on the MNIST dataset (handwritten numbers) we can now train neural networks [[2]](##References) that are guaranteed to be 87% accurate within a large radius: 40% change in each pixel's brightness to be precise.
+Naturally we want to prevent our models from being susceptible to these attacks so it is unsurprising that the discovery of adversarial examples has sparked a lot of research into robust neural networks. And with success! For example on the MNIST dataset (handwritten numbers) we can now train neural networks [[2]](#references) that are guaranteed to be 87% accurate within a large radius: 40% change in each pixel's brightness to be precise.
 
 So we are done right? Well, not yet. While neural networks are good at working with unstructured data like images, audio and text, we often use different models for more structured data. Some of the best all-round models are ... decision tree ensembles!
 
@@ -27,7 +27,7 @@ So we are done right? Well, not yet. While neural networks are good at working w
 Decision trees are very simple models that consist of decision nodes whose decisions lead to a prediction leaf. Let's look at an example.
 
 <figure>
-  <img src="assets/decision_tree.png"
+  <img src="../../assets/blog-img/trees-adversarial-examples/decision_tree.png"
     alt="Decision tree">
     <figcaption>Fig 2. A single decision tree that might be used for credit card fraud detection. Given an input we can follow a path through the decision nodes to reach a final prediction. </figcaption>
 </figure>
@@ -41,18 +41,18 @@ But are these trees and ensembles robust?
 ## Robustness of tree ensembles
 To determine the robustness of decision trees and tree ensembles we want to know how often we can successfully create an adversarial example within some defined limits. In this blog post we will define these limits as a maximum [L-infinity distance](https://en.wikipedia.org/wiki/Chebyshev_distance) that an attacker can modify a sample by. In both the toy and MNIST examples we will limit the attacks within a distance of 10% of the feature range.
 
-Now how do we find adversarial examples within these limits? In this blogpost we will use the [MILP](https://en.wikipedia.org/wiki/Integer_programming) attack by [[3]](##References). This attack turns the model into a system of linear constraints (and binary variables) that an optimizer such as [GUROBI](https://www.gurobi.com/) can solve to find the optimal adversarial example. An optimal adversarial example is one with minimal distance from the original sample. Some adversarial examples generated using this attack are given in Figure 6.
+Now how do we find adversarial examples within these limits? In this blogpost we will use the [MILP](https://en.wikipedia.org/wiki/Integer_programming) attack by [[3]](#references). This attack turns the model into a system of linear constraints (and binary variables) that an optimizer such as [GUROBI](https://www.gurobi.com/) can solve to find the optimal adversarial example. An optimal adversarial example is one with minimal distance from the original sample. Some adversarial examples generated using this attack are given in Figure 6.
 
 ### Adversarial accuracy
 A useful metric for determining robustness is the adversarial accuracy. It is the accuracy after an attacker has put in its best effort to attack each sample within the defined limits.
 
-To compute this value we don't have to solve an optimization problem to find the minimal adversarial example. Instead we just need to figure out whether any attack is possible within the limits and can do this by turning the standard MILP attack into a feasibility problem like the author of [[4]](##References) did.
+To compute this value we don't have to solve an optimization problem to find the minimal adversarial example. Instead we just need to figure out whether any attack is possible within the limits and can do this by turning the standard MILP attack into a feasibility problem like the author of [[4]](#references) did.
 
 ## Decision regions of a toy dataset
 Let's look at some decision trees and ensembles trained on a 2D toy dataset, this way we can easily visualize the results. We create a toy dataset with a simple decision tree as the ground truth and take 100 samples from its space uniformly at random. For a random 10% of the samples we flip the labels to make the problem slightly harder:
 
 <figure>
-  <img src="assets/example_toy.svg"
+  <img src="../../assets/blog-img/trees-adversarial-examples/example_toy.svg"
     alt="Decision tree">
     <figcaption>Fig 3. Ground truth tree and 100 samples generated from it. 10% of the labels were flipped to generate some noise. </figcaption>
 </figure>
@@ -70,10 +70,10 @@ The models score reasonably well on test accuracy but since they score much bett
 <figure>
 <div class="row">
   <div class="column-2">
-    <img src="assets/tree_toy.svg" alt="decision tree on toy data" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/tree_toy.svg" alt="decision tree on toy data" style="width:100%">
   </div>
   <div class="column-2">
-    <img src="assets/forest_toy.svg" alt="decision tree on toy data" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/forest_toy.svg" alt="decision tree on toy data" style="width:100%">
   </div>
 </div>
 <figcaption>Fig 4. A decision tree (left) and random forest (right) trained on a toy dataset with 10% label noise. In both models one could move samples by a small distance to flip that label's prediction. </figcaption>
@@ -102,10 +102,10 @@ Clearly this has helped preventing the overfitting by reducing the train accurac
 <figure>
 <div class="row">
   <div class="column-2">
-    <img src="assets/tree_better_toy.svg" alt="decision tree on toy data" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/tree_better_toy.svg" alt="decision tree on toy data" style="width:100%">
   </div>
   <div class="column-2">
-    <img src="assets/forest_better_toy.svg" alt="decision tree on toy data" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/forest_better_toy.svg" alt="decision tree on toy data" style="width:100%">
   </div>
 </div>
 <figcaption>Fig 5. The regularized decision tree (left) and regularized random forest (right). </figcaption>
@@ -131,42 +131,42 @@ To get an idea of just how fragile the model is under adversarial influence we c
 <figure>
 <div class="row">
   <div class="column-2">
-    <img src="assets/original_0.svg" alt="original sample" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/original_0.svg" alt="original sample" style="width:100%">
   </div>
   <div class="column-2">
-    <img src="assets/adv_example_0.svg" alt="adversarial example" style="width:100%">
-  </div>
-</div>
-<div class="row">
-  <div class="column-2">
-    <img src="assets/original_1.svg" alt="original sample" style="width:100%">
-  </div>
-  <div class="column-2">
-    <img src="assets/adv_example_1.svg" alt="adversarial example" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_0.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
 <div class="row">
   <div class="column-2">
-    <img src="assets/original_2.svg" alt="original sample" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/original_1.svg" alt="original sample" style="width:100%">
   </div>
   <div class="column-2">
-    <img src="assets/adv_example_2.svg" alt="adversarial example" style="width:100%">
-  </div>
-</div>
-<div class="row">
-  <div class="column-2">
-    <img src="assets/original_3.svg" alt="original sample" style="width:100%">
-  </div>
-  <div class="column-2">
-    <img src="assets/adv_example_3.svg" alt="adversarial example" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_1.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
 <div class="row">
   <div class="column-2">
-    <img src="assets/original_4.svg" alt="original sample" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/original_2.svg" alt="original sample" style="width:100%">
   </div>
   <div class="column-2">
-    <img src="assets/adv_example_4.svg" alt="adversarial example" style="width:100%">
+    <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_2.svg" alt="adversarial example" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column-2">
+    <img src="../../assets/blog-img/trees-adversarial-examples/original_3.svg" alt="original sample" style="width:100%">
+  </div>
+  <div class="column-2">
+    <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_3.svg" alt="adversarial example" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column-2">
+    <img src="../../assets/blog-img/trees-adversarial-examples/original_4.svg" alt="original sample" style="width:100%">
+  </div>
+  <div class="column-2">
+    <img src="../../assets/blog-img/trees-adversarial-examples/adv_example_4.svg" alt="adversarial example" style="width:100%">
   </div>
 </div>
 <figcaption>Fig 6. Adversarial examples for a random forest on the MNIST 2 vs 6 dataset. With only tiny modifications to the left samples, the resulting images on the right are all misclassified by the model. </figcaption>
