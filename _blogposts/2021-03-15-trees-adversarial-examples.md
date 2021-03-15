@@ -59,7 +59,7 @@ Let's look at some decision trees and ensembles trained on a 2D toy dataset, thi
 
 Now let's train a simple decision tree of depth 3, and a random forest on this dataset. We get the following scores on the train set and on a seperately generated test set:
 
-{:.table}
+{:.table .table-bordered}
 | Model             | Train accuracy | Test accuracy | Train adversarial accuracy | Test adversarial accuracy |
 |-------------------|----------------|---------------|----------------------------|---------------------------|
 | Ground truth      | 86%            | 86%           | 57%                        | 62%                       |
@@ -90,7 +90,7 @@ To combat these two problems we will try the following:
 
 Now, we get the following scores:
 
-{:.table}
+{:.table .table-bordered}
 | Model             | Train accuracy | Test accuracy | Train adversarial accuracy | Test adversarial accuracy |
 |-------------------|----------------|---------------|----------------------------|---------------------------|
 | Ground truth      | 86%            | 86%           | 57%                        | 62%                       |
@@ -122,7 +122,7 @@ Now that we have seen a small toy dataset and gotten some intuition on how decis
 
 For this dataset we will set aside the single decision tree model as it is too simplistic for datasets with hundreds of important features (pixels). For simplicity, we will train a random forest only on two classes of the data: the model will try to distinguish between handwritten '2's and '6's. The forest contains 100 trees, only creates splits for 10 or more samples and only creates leaves for 5 or more samples.
 
-{:.table}
+{:.table .table-bordered}
 | Model         | Accuracy | Adversarial accuracy |
 |---------------|----------|----------------------|
 | Random forest | 99.7%    | 16.0%                |

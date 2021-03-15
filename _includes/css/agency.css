@@ -29,6 +29,7 @@ figure {
   font-size: smaller;
   text-indent: 0;
   border: thin white dotted;
+  margin-bottom: 20px;
 }
 
 img.scaled {
