@@ -6,7 +6,7 @@ title: Hybrid Connection and Host Clustering for Community Detection in Spatial-
 author_list: Mark Patrick Roeling, Azqa Nadeem, Sicco Verwer
 venue: Machine Learning for Cybersecurity (MLCS)
 year: 2020
-pre_link: http://pure.tudelft.nl/ws/portalfiles/portal/83428936/RoelingMP_NadeemA_VerwerS_MLCS2020.pdf
+paper_link: https://link.springer.com/chapter/10.1007/978-3-030-65965-3_12
 ---
 
 
