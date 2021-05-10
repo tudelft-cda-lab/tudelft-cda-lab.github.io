@@ -1,6 +1,6 @@
 ---
 name: Maria Simidzioski
-pic: female-no.png
+pic: maria.jpg
 role: msc
 position: MSc. student
 social:
