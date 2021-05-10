@@ -1,7 +1,7 @@
 ---
 name: Irene van der Blij
 pic: irene.jpg
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
