@@ -1,6 +1,6 @@
 ---
 name: Dennis Mouwen
-pic: dennis.png
+pic: dennis.jpg
 role: msc
 position: MSc. student
 social:
