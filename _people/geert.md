@@ -1,7 +1,7 @@
 ---
 name: Geert Habben Jansen
 pic: geert.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
