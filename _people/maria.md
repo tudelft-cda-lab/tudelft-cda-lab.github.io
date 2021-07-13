@@ -1,7 +1,7 @@
 ---
 name: Maria Simidzioski
 pic: maria.jpg
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
