@@ -1,7 +1,7 @@
 ---
 name: Cas Bilstra
 pic: cas_bilstra.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
