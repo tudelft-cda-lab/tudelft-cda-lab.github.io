@@ -230,13 +230,16 @@ Other than the obvious benefit of visualizing sequential data for verifying clus
 
 If you use temporal heatmaps in your research, please consider citing the following reference:
 
-> <a>&#64;incollection</a>{nadeembeyond,
->  title={Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families},
->  author={Nadeem, Azqa and Hammerschmidt, Christian and Ga{\~n}{\'a}n, Carlos H and Verwer, Sicco},
->  booktitle={Malware Analysis Using Artificial Intelligence and Deep Learning},
->  pages={381--409},
->  publisher={Springer}
->}
+```
+@article{nadeembeyond,
+  title={Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families},
+  author={Nadeem, Azqa and Hammerschmidt, Christian and Ga{\~n}{\'a}n, Carlos H and Verwer, Sicco},
+  journal={Malware Analysis Using Artificial Intelligence and Deep Learning},
+  pages={381},
+  publisher={Springer},
+  year={2021}
+}
+```
 
 ## References
 - Nadeem, A., Hammerschmidt, C., Gañán, C. H., & Verwer, S. [Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of Malware Families.](https://link.springer.com/chapter/10.1007%2F978-3-030-62582-5_15) In Malware Analysis Using Artificial Intelligence and Deep Learning (pp. 381-409). Springer, Cham.
