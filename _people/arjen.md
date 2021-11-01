@@ -1,7 +1,7 @@
 ---
 name: Arjen Brussen
 pic: arjen.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
