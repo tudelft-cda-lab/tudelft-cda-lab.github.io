@@ -10,7 +10,8 @@ Welcome to the Cyber Analytics lab at Delft University of Technology. We perform
 
 <br/><br/><br/>
 ## Recent News
-
+- Our student Daniël Vos has won the [Best Cybersecurity Master Thesis Award](https://csng.nl/?q=node/45) for his thesis entitled "[Adversarially Robust Decision Trees Against User-Specified Threat Models](http://resolver.tudelft.nl/uuid:c9d9cdc6-4f98-4730-8fb6-43e6e3444002)" at the CSng workshop 2021.
+- Our student Clinton Cao has won the Best Poster Award at the CSng workshop 2021.
 - Our student Tom Catshoek together with Sicco Verwer won the LTL track of the [Rigurous Examination of Reactive Systems (RERS 2020) challenge](http://rers-challenge.org/2020/index.php?page=results)! 
 - We have a new twitter handle [@analytics_cyber](https://twitter.com/analytics_cyber). Follow us to receive updates about our research endeavours!
 - Sicco Verwer and Toon Calders have received the [Test of Time Award](https://www.tudelft.nl/en/2020/ewi/insy/cyber-security/test-of-time-award-for-cys-paper/) for their paper _[Three naive Bayes approaches for discrimination-free classification](https://link.springer.com/article/10.1007/s10618-010-0190-x)_ at ECML-PKDD 2020.
