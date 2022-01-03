@@ -13,11 +13,11 @@ Security Operations Centers (SOCs) are operated by human analysts who monitor an
 ## Attack graphs as a solution
 An attack graph (AG) is a classical cybersecurity construct that shows all the paths an attacker can utilize to penetrate a network, sometimes also including the vulnerabilities they can exploit to obtain their objectives. There is several decades worth of research focusing on AGs, which shows their utility in attack detection and forensics [1-4].
 
-Although a great technology for enumerating potential attack paths, AGs cannot readily be used in a SOC environment: These graphs are typically constructed using a network topology and a list of pre-existing vulnerabilities in that network. The problem being that the list of vulnerabilities is often incomplete and/or outdated! So, although these AGs seem like a great way to show attacker strategies, they show what _might happen_, not what _really happens_, often providing a broad yet incomplete picture.
+Although a great technology for enumerating potential attack paths, AGs cannot readily be used in a SOC environment: These graphs are typically constructed using a network topology and a list of pre-existing vulnerabilities in that network. The problem being that the list of vulnerabilities is often incomplete and/or outdated! So, although these AGs seem like a great way to show attacker strategies, they show what <em class="italic">might happen</em>, not what <em class="italic">really happens</em>, often providing a broad yet incomplete picture.
 
 ## Alert-driven attack graphs
 
-Contrary to traditional attack graphs, we have introduced a notion of <i>Alert-driven attack graphs</i>. As the name suggests, these AGs are constructed using the abundant security alerts --- They show exactly what happened on the network by showing the attacker strategies visible in the alert dataset. The best part? This removes the need to use any expert input about network topology or vulnerabilities!
+Contrary to traditional attack graphs, we have introduced a notion of <em class="italic">Alert-driven attack graphs</em>. As the name suggests, these AGs are constructed using the abundant security alerts --- They show exactly what happened on the network by showing the attacker strategies visible in the alert dataset. The best part? This removes the need to use any expert input about network topology or vulnerabilities!
 
 
 <figure>
@@ -29,12 +29,12 @@ Contrary to traditional attack graphs, we have introduced a notion of <i>Alert-d
 
 Alert-driven AGs provide a visual summary of what an intrusion detection system sees over time --- which machines the attackers are targeting and how. Of course, the obvious caveat is that the AGs are only as good as the IDS itself --- if any rule is misconfigured or is missing, the AG’s portrayal may not align with reality. That said, in addition to helping security analysts visualize attacker strategies, these AGs can, in theory, also be used to debug such faulty IDS signatures.
 
-The tool responsible for generating these alert-driven AGs, called **SAGE**, uses _Unsupervised sequential machine learning_ to learn patterns in the alert dataset and transform them into AGs. SAGE overcomes two main challenges inherent to alert datasets:
+The tool responsible for generating these alert-driven AGs, called **SAGE**, uses <em class="italic">Unsupervised sequential machine learning</em> to learn patterns in the alert dataset and transform them into AGs. SAGE overcomes two main challenges inherent to alert datasets:
 
 -	**Alert-type imbalance:** Severe alerts are infrequent, while non-severe alerts appear way too frequently. How to ensure the AGs are not dominated by non-severe alerts?
 -	**Context modelling:** An alert can have a different meaning depending on the alerts that surround it. How to model this context?
 
-A _Suffix-based Probabilistic Deterministic Finite Automaton (S-PDFA)_ addresses these challenges by:
+A <em class="italic">Suffix-based Probabilistic Deterministic Finite Automaton (S-PDFA)</em> addresses these challenges by:
 -	**Learning a suffix-based model:** Alert sequences are constructed such that infrequent severe alerts appear at the end of the sequences. A suffix model brings the states modeling such severe alerts to the top, due to which the calculated statistics end up highlighting them.
 -	**Using Alergia + Markovian properties:** The state merging algorithm (Alergia merge criteria + model with Markovian properties) ensures that the states with identical future and similar pasts are merged --- The states that lead to significantly different outcomes are modelled separately, even if they have the same alert signature. Thus, the state identifiers reflect the context of an alert.
 
@@ -48,7 +48,7 @@ The alert-driven AGs are great because they not only enable forensic analysis of
     <figcaption>Fig 2. A notional alert-driven attack graph. </figcaption>
 </figure>
 
--	**Alert-driven AG.** An alert-driven AG shows all the paths attacker(s) take to exploit one of the high-severity alert-groups  (*a.k.a Objectives*), e.g., exfiltration, DoS, resource hijacking, data manipulation, on a specific victim machine. We do this by keeping track of all the alerts appearing between <attacker, victim> pairs, and displaying only a selection of those alert sequences in each AG. For each such sequence, it is shown up till the objective. If the objective is reached multiple times in a single sequence, it is broken into multiple attack attempts, and they are shown as individual attack paths.
+-	**Alert-driven AG.** An alert-driven AG shows all the paths attacker(s) take to exploit one of the high-severity alert-groups  (a.k.a <em class="italic">Objectives</em>), e.g., exfiltration, DoS, resource hijacking, data manipulation, on a specific victim machine. We do this by keeping track of all the alerts appearing between <attacker, victim> pairs, and displaying only a selection of those alert sequences in each AG. For each such sequence, it is shown up till the objective. If the objective is reached multiple times in a single sequence, it is broken into multiple attack attempts, and they are shown as individual attack paths.
 
 <figure>
   <img src="../../assets/blog-img/attack-graphs/multi-paths.png"
@@ -78,7 +78,7 @@ Objectives that rely on each other will have AGs with a definite overlap in path
     <figcaption>Fig 5. Three possible variants of objectives due to significant differences in paths that lead to them. </figcaption>
 </figure>
 
-- **Vertices.**	Each vertex in an AG refers to an episode, which is an aggregation of the same class of alerts (_a.k.a_ attack stage) occurring within `w` seconds of each other. The vertex label shows the attack stage, the service running on the victim, and an identifier denoting the context in which the episode appeared in the data.
+- **Vertices.**	Each vertex in an AG refers to an episode, which is an aggregation of the same class of alerts (a.k.a <em class="italic">attack stage</em>) occurring within `w` seconds of each other. The vertex label shows the attack stage, the service running on the victim, and an identifier denoting the context in which the episode appeared in the data.
 
 <figure>
 <div class="row">
@@ -108,7 +108,7 @@ Objectives that rely on each other will have AGs with a definite overlap in path
     <figcaption>Fig 8. Snippet of edge colors showing 3 teams. </figcaption>
 </figure>
 
-- **Episode severity.**	The shape of the vertices refer to the severity of the episodes, i.e., a circle for a low-severity episode, a box for a medium-severity episode, and a hexagon for a high-severity episode. Vertices may also have a dotted border (a.k.a _Sinks_) if their corresponding episodes were way too infrequent to learn anything from.
+- **Episode severity.**	The shape of the vertices refer to the severity of the episodes, i.e., a circle for a low-severity episode, a box for a medium-severity episode, and a hexagon for a high-severity episode. Vertices may also have a dotted border (a.k.a <em class="italic">Sinks</em>) if their corresponding episodes were way too infrequent to learn anything from.
 
 <figure>
 <div class="row">
@@ -148,9 +148,9 @@ SAGE is available as open source! We have released it in a [Docker container](ht
 Of course, the parameter settings can be changed depending on the use case and the alert dataset. For example, the code can be modified to display one AG showing all the victims targeted by a specific attacker, or all the attackers that target a specific victim regardless of the objective. The time window `w` of an episode can be made shorter or longer depending on alert density. More details on parameters are available in the [README](https://github.com/tudelft-cda-lab/SAGE/blob/main/README.md).
 
 ## In summary
-We discussed a new paradigm of attack graphs that are learned directly from security alerts. The key strength of _alert-driven AGs_ is their ability to summarize and visualize attacker strategies on a per-victim, per-objective basis that can be used by SOC analysts to reduce their workload. While traditional AGs have their uses, alert-driven AGs are geared towards AI-enabled forensic analysis and threat intelligence generation.
+We discussed a new paradigm of attack graphs that are learned directly from security alerts. The key strength of <em class="italic">alert-driven AGs</em> is their ability to summarize and visualize attacker strategies on a per-victim, per-objective basis that can be used by SOC analysts to reduce their workload. While traditional AGs have their uses, alert-driven AGs are geared towards AI-enabled forensic analysis and threat intelligence generation.
 
-_This article is part of on-going work related to alert-driven AGs. Currently, we are looking into (i) batch processing of alerts to generate evolving attack graphs, (ii) adversarial robustness of alert-driven AGs, and (iii) attack prediction using alert-driven AGs. For questions/comments, please reach out to us._
+<em class="italic">This article is part of on-going work related to alert-driven AGs. Currently, we are looking into (i) batch processing of alerts to generate evolving attack graphs, (ii) adversarial robustness of alert-driven AGs, and (iii) attack prediction using alert-driven AGs. For questions/comments, please reach out to us.</em>
 
 
 ## References

@@ -16,6 +16,9 @@
   padding: 1px;
 }
 
+em.italic {
+	font-style: italic;
+}
 
 .row::after {
   content: "";
