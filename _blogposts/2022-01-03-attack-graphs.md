@@ -17,7 +17,7 @@ Although a great technology for enumerating potential attack paths, AGs cannot r
 
 ## Alert-driven attack graphs
 
-Contrary to traditional attack graphs, we have introduced a notion of _Alert-driven attack graphs_. As the name suggests, these AGs are constructed using the abundant security alerts --- They show exactly what happened on the network by showing the attacker strategies visible in the alert dataset. The best part? This removes the need to use any expert input about network topology or vulnerabilities!
+Contrary to traditional attack graphs, we have introduced a notion of <i>Alert-driven attack graphs</i>. As the name suggests, these AGs are constructed using the abundant security alerts --- They show exactly what happened on the network by showing the attacker strategies visible in the alert dataset. The best part? This removes the need to use any expert input about network topology or vulnerabilities!
 
 
 <figure>
