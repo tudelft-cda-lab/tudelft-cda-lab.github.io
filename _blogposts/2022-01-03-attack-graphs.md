@@ -4,7 +4,7 @@ title: The anatomy of Alert-driven Attack Graphs
 author: Azqa Nadeem
 feature_image: "https://picsum.photos/2560/600?image=872"
 excerpt: Attack graphs show all the ways an attacker can (potentially) penetrate a system. We describe a new type of AGs that visualize attacker strategies being employed here and now!   
-date: 2021-01-03
+date: 2022-01-03
 ---
 
 
