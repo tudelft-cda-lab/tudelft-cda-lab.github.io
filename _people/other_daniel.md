@@ -1,6 +1,6 @@
 ---
 name: Daniël Meinsma
-pic: other-daniel.jpg
+pic: danielm.jpg
 role: phd
 position: PhD Candidate
 social:
