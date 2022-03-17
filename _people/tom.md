@@ -1,8 +1,8 @@
 ---
 name: Tom Catshoek
 pic: tom.png
-role: alumni
-position: PhD Candidate
+role: external
+position: Scientific Programmer
 social:
 - title: twitter
   url: #
