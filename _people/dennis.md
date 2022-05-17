@@ -1,7 +1,7 @@
 ---
 name: Dennis Mouwen
 pic: dennis.jpg
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter

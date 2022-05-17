@@ -1,7 +1,7 @@
 ---
 name: Maartje Veraart
 pic: maartje.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
