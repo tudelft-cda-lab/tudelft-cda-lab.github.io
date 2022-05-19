@@ -1,7 +1,7 @@
 ---
 name: Bart de Jonge
 pic: male-no.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter
