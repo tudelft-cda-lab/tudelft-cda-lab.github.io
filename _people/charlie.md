@@ -1,6 +1,6 @@
 ---
 name: Charlie Nguyen
-pic: charlie.png
+pic: charlie.jpg
 role: msc
 position: MSc. student
 social:
