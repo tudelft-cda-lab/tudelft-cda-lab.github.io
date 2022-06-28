@@ -10,6 +10,7 @@ Welcome to the Cyber Analytics lab at Delft University of Technology. We perform
 
 <br/><br/><br/>
 ## Recent News
+- Two papers from our lab (by Azqa Nadeem and Daniël Vos) have been accepted at ECML/PKDD 2022! 
 - Our student Clinton Cao got his paper _"Learning State Machines to Monitor and Detect Anomalies on a Kubernetes Cluster"_  accepted at [IWCSEC 2022](https://www.ares-conference.eu/workshops-eu-symposium/iwcsec-2022/)
 - Our student Daniël Vos has won the [Best Cybersecurity Master Thesis Award](https://csng.nl/?q=node/45) for his thesis entitled "[Adversarially Robust Decision Trees Against User-Specified Threat Models](http://resolver.tudelft.nl/uuid:c9d9cdc6-4f98-4730-8fb6-43e6e3444002)" at the CSng workshop 2021.
 - Our student Clinton Cao has won the Best Poster Award at the CSng workshop 2021.
