@@ -4,7 +4,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 title:  Learning State Machines to Monitor and Detect Anomalies on a Kubernetes Cluster
 author_list: Clinton Cao, Sicco Verwer, Agathe Blaise, Filippo Rebecchi
-venue: International Conference on Availability, Reliability and Security (IWCSEC workshop)
+venue: International Conference on Availability, Reliability and Security (ARES) - IWCSEC Workshop
 year: 2022
 ---
 
