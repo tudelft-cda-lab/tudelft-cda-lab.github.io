@@ -6,7 +6,7 @@ title: SAGE Intrusion Alert-driven Attack Graph Extractor
 author_list: Azqa Nadeem, Sicco Verwer, Shanchieh Jay Yang
 venue: Symposium on Visualization for Cyber Security (VizSec)
 year: 2021
-paper_link: https://ieeevis.b-cdn.net/vis_2021/pdfs/a-vizsec-2863.pdf
+paper_link: https://ieeexplore.ieee.org/document/9629418
 code_link: https://github.com/tudelft-cda-lab/SAGE
 ---
 
