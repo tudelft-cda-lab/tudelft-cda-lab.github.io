@@ -1,6 +1,6 @@
 ---
 name: Simon Dieck
-pic: male-no.jpg
+pic: male-no.png
 role: phd
 position: PhD Candidate
 social:
