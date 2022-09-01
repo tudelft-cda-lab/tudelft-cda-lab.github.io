@@ -7,5 +7,5 @@ social:
 - title: twitter
   url: https://twitter.com/CaoClinton
 - title: globe
-  url: #
+  url: https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/clinton-cao
 ---
