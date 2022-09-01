@@ -4,7 +4,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 title: Learning state machines via efficient hashing of future traces
 author_list: Robert Baumgartner, Sicco Verwer
-venue: LearnAUT 2022
+venue: Learning and Automata workshop (LearnAut)
 year: 2022
 code_link: https://github.com/tudelft-cda-lab/FlexFringe
 paper_link: https://arxiv.org/abs/2207.01516
