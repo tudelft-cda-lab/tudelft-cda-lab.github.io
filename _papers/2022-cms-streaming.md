@@ -6,6 +6,7 @@ title: Learning state machines via efficient hashing of future traces
 author_list: Robert Baumgartner, Sicco Verwer
 venue: LearnAUT 2022
 year: 2022
+code_link: https://github.com/tudelft-cda-lab/FlexFringe
 paper_link: https://arxiv.org/abs/2207.01516
 ---
 
