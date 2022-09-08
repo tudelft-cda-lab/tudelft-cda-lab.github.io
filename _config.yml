@@ -25,7 +25,7 @@ plugins:
 
 # 3. Gem settings
 paginate: 5
-paginate_path: publications/page:num
+paginate_path: projects/page:num
 
 
 # 4. Jekyll settings
@@ -132,7 +132,7 @@ roles:
 # ---------------------------------------------------------------------------------
 
 # Postal address
-address: Van Mourik Broekmanweg 6, 2628 XE Delft
+address: Echo, Van Mourik Broekmanweg 5, 2628 XE Delft
 
 # ---------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------
