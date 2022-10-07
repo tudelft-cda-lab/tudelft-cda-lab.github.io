@@ -40,7 +40,7 @@ The details of the consistency checks are somewhat complex. I try to provide som
 1 6 b a a b b a
 1 8 b a b b b b a b
 1 7 a a b b a a a
-```
+```c
 
 The first line is the header, specifying the amount of sequences and the size of the alphabet (number of possible symbols/words). Each line after that contains a sequence. The first symbol/word denotes the sequence type. In this case, all sequences are positive. The number after that denotes the length of the sequence. The sequence if written after that. For example, the first sequence is “a b” and the second is “b b b a b”. FlexFringe parses this file, and creates an initial model called the prefix tree, shown below.
 
