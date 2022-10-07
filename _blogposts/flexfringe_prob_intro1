@@ -119,13 +119,13 @@ which shows the logs block structure mentioned above in a state machine form. Fl
 The states in the model show numbers and the state sizes. All states are red since the process finished. More frequent states are displayed as larger circles. Optionally, you can make FlexFringe output state information that is used in the statistical tests (symbol counts and final counts, —printevaluation=1). To provide some more insight into the learning process, we printed the state machine obtained after every merge during this run (—printeachstep=1), but with printing the white states from the prefix tree, and only printing the red and blue states (set with —printwhite=1, and —printwhite=0, —printblue=1):
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/hdfs_run.png" style="width:100%"
+  <img src="https://surfdrive.surf.nl/files/index.php/s/sAqKihzZC6TgmH6" style="width:100%"
     alt=“a simple PDFA.”>
     <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
 </figure>
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/hdfs_run_no_white.png" style="width:100%"
+  <img src="https://surfdrive.surf.nl/files/index.php/s/Q0rmnufqvOQM7TU" style="width:100%"
     alt=“a simple PDFA.”>
     <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
 </figure>
