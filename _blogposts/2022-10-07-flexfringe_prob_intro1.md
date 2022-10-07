@@ -33,7 +33,7 @@ The states in the above models are red. The reason is that FlexFringe implements
 
 The details of the consistency checks are somewhat complex. I try to provide some insight into how they work using a small example FlexFringe run. We provide FlexFringe with the following input file in Abbadingo format (a famous DFA learning competition from 1998):
 
-```
+```c
 5 2
 1 2 a b
 1 5 b b b a b
