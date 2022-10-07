@@ -107,9 +107,9 @@ The default AIC heuristic uses final probabilities (—finalprob=1) and only con
 should give:
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/hdfs.png" style="width:100%"
+  <img src="../../assets/blog-img/flexfringe/hdfs.png" style="width:50%"
     alt=“a simple PDFA.”>
-    <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
+    <figcaption>Fig 7. Model learned from the HDFS dataset using AIC heuristic (output by FlexFringe). </figcaption>
 </figure>
 
 which shows the logs block structure mentioned above in a state machine form. FlexFringe is quite an effective method for finding such blocks and their sequential composition and recursive patterns (loops). The HDFS logs also contain parallel processes, which currently leads to a blowup in the state space. This works fine when the parallel processes are executed sufficiently frequent (such as the 22-5 events at the start). It creates issues with less frequent processes (such as the 11-9-5 path after the initial 5). Making FlexFringe cope better with parallelism is an open research problem.
