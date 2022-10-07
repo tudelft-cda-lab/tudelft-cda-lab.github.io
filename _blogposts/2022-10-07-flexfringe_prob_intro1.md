@@ -3,7 +3,8 @@ layout: blogpost
 title: Learning Probabilistic State Machines using FlexFringe
 author: Sicco Verwer
 feature_image: "https://picsum.photos/2560/600?image=872"
-excerpt: State Machines or Automata are insightful models for software behaviour. They are used during software design, testing, and verification. Often, it is not so easy to obtain these models. In this post, I will explain how to get these through machine learning from software logs. Essentially, a state machine is simply a behavioural model and, just like neural nets and decision trees, algorithms exist for learning them from data. When positive and negative data are available, the resulting model can be used as classifier for event sequences. In the case there is only positive data, we can learn a probabilistic model that may be used for computing behavioural distances or anomaly detection. Our FlexFringe tool implements the main algorithm for learning state machines from both these data sources, called state-merging.
+excerpt: State Machines or Automata are insightful models for software behaviour. They are used during software design, testing, and verification. Often, it is not so easy to obtain these models. In this post, I will explain how to get these through machine learning from software logs.
+date: 2022-10-07
 ---
 
 ## Probabilistic Deterministic Automata
