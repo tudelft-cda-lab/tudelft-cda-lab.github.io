@@ -12,7 +12,7 @@ date: 2022-10-07
 A PDFA is a generative model for discrete sequences. Starting from the root node, it follows transitions, outputting the symbol associated with each transition in sequence. For instance, in the below figure, following the transition labeled by “a” from the root changes the current state (the root, a rectangle, indicated by the arrow from I) to state 1. The numbers at each transition denotes the count of that transition in the data used to train the model. In each state, a number is written, followed by the number of total occurrences (after the #, larger states have a higher count). We normalise the transition counts to obtain transition probabilities, e.g., the probability of an “a” transition from the root is 6/(6+7) = 0.46 (the counts of the transition divided by the sum of all outgoing transition counts). The probability of a sequence is the product of the probabilities of the transitions. Thus sequence “abbab” has (approximate) probability 0.46\*0.67\*1.0\*0.46\*0.67 = 0.09.
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/simple_final.png" style="width:100%"
+  <img src="../../assets/blog-img/flexfringe/simple_final.png"
     alt=“a simple PDFA.”>
     <figcaption>Fig 1. Example of a PDFA (output by FlexFringe). </figcaption>
 </figure>
