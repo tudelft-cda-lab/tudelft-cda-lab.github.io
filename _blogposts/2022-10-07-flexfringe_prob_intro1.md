@@ -13,7 +13,7 @@ A PDFA is a generative model for discrete sequences. Starting from the root node
 
 <figure>
   <img src="../../assets/blog-img/flexfringe/simple_final.png" style="width:100%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 1. Example of a PDFA (output by FlexFringe). </figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ The model in the above figure is both probabilistic and deterministic. As this m
 
 <figure>
   <img src="../../assets/blog-img/flexfringe/simple_markov.png" style="width:100%"
-    alt=“a markov chain.”>
+    alt="a markov chain.">
     <figcaption>Fig 2. Example of a Markov chain (output by FlexFringe). </figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ The first line is the header, specifying the amount of sequences and the size of
 
  <figure>
   <img src="../../assets/blog-img/flexfringe/simple1.png" style="width:100%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 3. The prefix tree for the above data (output by FlexFringe). </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ This prefix tree encodes directly the input data. There exists exactly one path 
 
  <figure>
   <img src="../../assets/blog-img/flexfringe/simple2.png" style="width:100%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 4. After the first merge (output by FlexFringe). </figcaption>
 </figure>
 
@@ -64,13 +64,13 @@ The next few steps taken by FlexFringe are all extend actions: it colors the con
 
 <figure>
   <img src="../../assets/blog-img/flexfringe/simple3.png" style="width:100%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 5. After the first extend (output by FlexFringe). </figcaption>
 </figure>
 
 <figure>
   <img src="../../assets/blog-img/flexfringe/simple7.png" style="width:100%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ should give:
 
 <figure>
   <img src="../../assets/blog-img/flexfringe/hdfs.png" style="width:50%"
-    alt=“a simple PDFA.”>
+    alt="a simple PDFA.">
     <figcaption>Fig 7. Model learned from the HDFS dataset using AIC heuristic (output by FlexFringe). </figcaption>
 </figure>
 
