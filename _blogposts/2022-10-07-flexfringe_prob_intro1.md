@@ -116,17 +116,8 @@ which shows the logs block structure mentioned above in a state machine form. Fl
 
 The states in the model show numbers and the state sizes. All states are red since the process finished. More frequent states are displayed as larger circles. Optionally, you can make FlexFringe output state information that is used in the statistical tests (symbol counts and final counts, —printevaluation=1). To provide some more insight into the learning process, we printed the state machine obtained after every merge during this run (—printeachstep=1), but with printing the white states from the prefix tree, and only printing the red and blue states (set with —printwhite=1, and —printwhite=0, —printblue=1):
 
-<figure>
-  <img src="https://surfdrive.surf.nl/files/index.php/s/sAqKihzZC6TgmH6" style="width:100%"
-    alt=“a simple PDFA.”>
-    <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
-</figure>
-
-<figure>
-  <img src="https://surfdrive.surf.nl/files/index.php/s/Q0rmnufqvOQM7TU" style="width:100%"
-    alt=“a simple PDFA.”>
-    <figcaption>Fig 6. After the last extend (output by FlexFringe). </figcaption>
-</figure>
+[animation run with prefix tree](https://surfdrive.surf.nl/files/index.php/s/sAqKihzZC6TgmH6/download)
+[animation run only red and blue](https://surfdrive.surf.nl/files/index.php/s/Q0rmnufqvOQM7TU/download)
 
 The model provides some insight into the inner workings of the software that generated the data. Moreover, since it is a probabilistic model, it (the json output) can be used to make predictions and compute probabilities for anomaly detection:
 
