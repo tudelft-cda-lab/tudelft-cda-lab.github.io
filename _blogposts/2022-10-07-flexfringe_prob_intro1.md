@@ -107,7 +107,7 @@ The default AIC heuristic uses final probabilities (—finalprob=1) and only con
 should give:
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/hdfs.png" style="width:80%"
+  <img src="../../assets/blog-img/flexfringe/hdfs.png" style="width:100%"
     alt="a simple PDFA.">
     <figcaption>Fig 7. Model learned from the HDFS dataset using AIC heuristic (output by FlexFringe). </figcaption>
 </figure>
