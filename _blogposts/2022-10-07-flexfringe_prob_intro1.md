@@ -155,7 +155,7 @@ As you can see, many sequences end prematurely, resulting in a log-probability o
 normal |548602| 1 |
 abnormal | 4764 | 16837 |
 
-or precision, recall, and F1-score of 0.78, 1.00, and 0.88, respectively. This is a good score, considering we did not tune any parameters and simply looked whether the test traces run through the model. Alternatively, you can use the correction parameter to apply a Laplace correction, basically adding 1 count to every observed symbol in every state, and reserving 1 count for unseen symbols. This is needed to avoid log-probabilities of -infinity, but still gives smaller probabilities to events occurring in infrequent states. You can then set a threshold using standard ML validation techniques.
+or precision, recall, and F1-score of 0.78, 1.00, and 0.88, respectively. This is a good score considering we did not tune any parameters and simply looked whether the test traces run through the model. Alternatively, you can use the correction parameter to apply a Laplace correction, basically adding 1 count to every observed symbol in every state, and reserving 1 count for unseen symbols. This is needed to avoid log-probabilities of -infinity, but still gives smaller probabilities to events occurring in infrequent states. You can then set a threshold using standard ML validation techniques.
 
 ## In summary
 
