@@ -12,7 +12,7 @@ date: 2022-10-07
 A PDFA is a generative model for discrete sequences. Starting from the root node, it follows transitions, outputting the symbol associated with each transition in sequence. For instance, in the below figure, following the transition labeled by “a” from the root changes the current state (the root, a rectangle, indicated by the arrow from I) to state 1. The numbers at each transition denotes the count of that transition in the data used to train the model. In each state, a number is written, followed by the number of total occurrences (after the #, larger states have a higher count). We normalise the transition counts to obtain transition probabilities, e.g., the probability of an “a” transition from the root is 6/(6+7) = 0.46 (the counts of the transition divided by the sum of all outgoing transition counts). The probability of a sequence is the product of the probabilities of the transitions. Thus sequence “abbab” has (approximate) probability 0.46\*0.67\*1.0\*0.46\*0.67 = 0.09.
 
 <figure>
-  <img src="../../assets/blog-img/flexfringe/simple_final.png"
+  <img src="../../assets/blog-img/flexfringe/simple_final.png" style="width:100%"
     alt=“a simple PDFA.”>
     <figcaption>Fig 1. Example of a PDFA (output by FlexFringe). </figcaption>
 </figure>
@@ -116,8 +116,8 @@ which shows the logs block structure mentioned above in a state machine form. Fl
 
 The states in the model show numbers and the state sizes. All states are red since the process finished. More frequent states are displayed as larger circles. Optionally, you can make FlexFringe output state information that is used in the statistical tests (symbol counts and final counts, —printevaluation=1). To provide some more insight into the learning process, we printed the state machine obtained after every merge during this run (—printeachstep=1), but with printing the white states from the prefix tree, and only printing the red and blue states (set with —printwhite=1, and —printwhite=0, —printblue=1):
 
-[animation run with prefix tree](https://surfdrive.surf.nl/files/index.php/s/sAqKihzZC6TgmH6/download)
-[animation run only red and blue](https://surfdrive.surf.nl/files/index.php/s/Q0rmnufqvOQM7TU/download)
+* [animation run with prefix tree](https://surfdrive.surf.nl/files/index.php/s/sAqKihzZC6TgmH6/download)
+* [animation run only red and blue](https://surfdrive.surf.nl/files/index.php/s/Q0rmnufqvOQM7TU/download)
 
 The model provides some insight into the inner workings of the software that generated the data. Moreover, since it is a probabilistic model, it (the json output) can be used to make predictions and compute probabilities for anomaly detection:
 
