@@ -33,14 +33,12 @@ The states in the above models are red. The reason is that FlexFringe implements
 
 The details of the consistency checks are somewhat complex. I try to provide some insight into how they work using a small example FlexFringe run. We provide FlexFringe with the following input file in Abbadingo format (a famous DFA learning competition from 1998):
 
-```c
-5 2
-1 2 a b
-1 5 b b b a b
-1 6 b a a b b a
-1 8 b a b b b b a b
-1 7 a a b b a a a
-```c
+> 5 2 <br>
+> 1 2 a b <br>
+> 1 5 b b b a b <br>
+> 1 6 b a a b b a <br>
+> 1 8 b a b b b b a b <br>
+> 1 7 a a b b a a a <br>
 
 The first line is the header, specifying the amount of sequences and the size of the alphabet (number of possible symbols/words). Each line after that contains a sequence. The first symbol/word denotes the sequence type. In this case, all sequences are positive. The number after that denotes the length of the sequence. The sequence if written after that. For example, the first sequence is “a b” and the second is “b b b a b”. FlexFringe parses this file, and creates an initial model called the prefix tree, shown below.
 
@@ -82,13 +80,11 @@ Now, FlexFringe does find a consistent merge, learning a self loop with label �
 
 The HDFS dataset, obtained from the DeepLog work https://github.com/wuyifan18/DeepLog, contains discretised logs from runs of a Hadoop server. The first few lines (modified for FlexFringe input) looks like this:
 
-```c
-4855 50
-1 19 5 5 5 22 11 9 11 9 11 9 26 26 26 23 23 23 21 21 21 
-1 13 22 5 5 5 11 9 11 9 11 9 26 26 26 
-1 21 22 5 5 5 26 26 26 11 9 11 9 11 9 2 3 23 23 23 21 21 21 
-1 13 22 5 5 5 11 9 11 9 11 9 26 26 26
-```
+> 4855 50 <br>
+> 1 19 5 5 5 22 11 9 11 9 11 9 26 26 26 23 23 23 21 21 21 <br>
+> 1 13 22 5 5 5 11 9 11 9 11 9 26 26 26 <br>
+> 1 21 22 5 5 5 26 26 26 11 9 11 9 11 9 2 3 23 23 23 21 21 21 <br>
+> 1 13 22 5 5 5 11 9 11 9 11 9 26 26 26 <br>
 
 So the file contains 4855 sequences and an alphabet of size 50 (this is an upper bound, the latest version off FlexFringe does not require this parameter, but reads is as it is still part of the original format). The first sequences has type 1 (all are positive) and length 19. It starts with a block of 5 and 22 events, followed by 11 and 9 events, some 26 events, and ending with 23 and 21 events. Note that although the events are integers, FlexFringe treats all as discrete symbols (it parses each symbol as a string). A run of FlexFringe on this data:
 
