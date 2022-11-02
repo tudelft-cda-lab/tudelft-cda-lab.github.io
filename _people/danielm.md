@@ -1,7 +1,7 @@
 ---
 name: Daniël Meinsma
 pic: danielm.jpg
-role: phd
+role: alumni
 position: PhD Candidate
 social:
 - title: twitter
