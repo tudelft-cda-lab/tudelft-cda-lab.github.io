@@ -5,7 +5,7 @@ role: phd
 position: PhD Candidate
 social:
 - title: twitter
-  url: #
+  url: https://twitter.com/daniel_a_vos
 - title: globe
-  url: #
+  url: https://daniel-vos.github.io/
 ---
