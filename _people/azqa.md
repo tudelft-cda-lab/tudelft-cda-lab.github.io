@@ -7,5 +7,5 @@ social:
 - title: twitter
   url: https://twitter.com/azqa_nadeem
 - title: globe
-  url: https://www.tudelft.nl/staff/azqa.nadeem/
+  url: https://azqanadeem.github.io/
 ---
