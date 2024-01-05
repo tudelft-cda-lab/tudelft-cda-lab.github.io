@@ -1,7 +1,7 @@
 ---
 name: Azqa Nadeem
 pic: azqa.jpg
-role: phd
+role: alumni
 position: PhD Candidate/Lecturer
 social:
 - title: twitter
