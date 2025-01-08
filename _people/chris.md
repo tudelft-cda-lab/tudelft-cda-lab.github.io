@@ -1,7 +1,7 @@
 ---
 name: Christian Hammerschmidt
 pic: chris.jpg
-role: postdoc
+role: 
 position: Postdoctoral Researcher
 social:
 - title: twitter

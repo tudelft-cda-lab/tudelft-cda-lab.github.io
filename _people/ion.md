@@ -1,7 +1,7 @@
 ---
 name: Ion Babalau
 pic: ion.png
-role: msc
+role: alumni
 position: MSc. student
 social:
 - title: twitter

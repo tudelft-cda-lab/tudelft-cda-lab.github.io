@@ -1,7 +1,7 @@
 ---
 name: Sofia Tsoni
 pic: female-no.png
-role: external
+role: alumni
 position: Scientific Programmer
 social:
 - title: twitter

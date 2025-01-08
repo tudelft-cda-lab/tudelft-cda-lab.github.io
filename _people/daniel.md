@@ -1,7 +1,7 @@
 ---
 name: Daniël Vos
 pic: daniel.jpg
-role: phd
+role: alumni
 position: PhD Candidate
 social:
 - title: twitter
