@@ -4,7 +4,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 
 title: CATMA&#58; Conformance Analysis Tool For Microservice Applications
 author_list: Clinton Cao, Simon Schneider, Nicolás E. Diaz Ferreyra, Annibale Panichella, Sicco Verwer, Riccardo Scandariato
-venue: Internation Conference on Software Engineering (ICSE)
+venue: International Conference on Software Engineering (ICSE)
 year: 2024
 code_link: https://cyber-analytics.nl/catma.github.io/
 paper_link: https://dl-acm-org.tudelft.idm.oclc.org/doi/10.1145/3639478.3640022
