@@ -16,6 +16,12 @@ Learning.
 
 <br/><br/><br/>
 ## Recent News
+- Our student Daniël Vos graduated for his PhD with cum laude! Congratulations Daniël!
+- Our student Clinton Cao got awarded with the Best Demo Award for his tool CATMA at [BNAIC 2024](https://bnaic2024.sites.uu.nl/)!
+- Two papers from our lab (by Robert Baumgartner and Simon Dieck) have been accepted at [CIAA 2024](http://www.math.akita-u.ac.jp/ciaa2024/)!
+- Our student Clinton Cao got his paper _"CATMA: Conformance Analysis Tool For Microservice Applications"_ accepted at [ICSE 2024](https://dl-acm-org.tudelft.idm.oclc.org/doi/10.1145/3639478.3640022)!
+- Our student Daniël Vos got his paper _"Optimal Decision Tree Policies for Markov Decision Processes"_ accepted at [IJCAI 2023](https://www.ijcai.org/proceedings/2023/0606.pdf)!
+- Three papers from our lab (by Bram Verboom, Simon Dieck, and Robert Baumgartner) have been accepted at [ICGI 2023](http://www.fsr.ac.ma/icgi2023/index.html)!
 - Our lab wrote a SoK paper on XAI for cybersecurity that has been accepted at EuroS&P 2023!
 - Two papers from our lab (by Azqa Nadeem and Daniël Vos) have been accepted at ECML/PKDD 2022! 
 - Our student Clinton Cao got his paper _"Learning State Machines to Monitor and Detect Anomalies on a Kubernetes Cluster"_  accepted at [IWCSEC 2022](https://www.ares-conference.eu/workshops-eu-symposium/iwcsec-2022/)
