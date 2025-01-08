@@ -2,7 +2,7 @@
 layout: post
 title: Assurance and certification in secure Multi-party Open Software and Services (AssureMOSS – H2020)
 categories:
-- Current
+- Past
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
