@@ -16,6 +16,7 @@ Learning.
 
 <br/><br/><br/>
 ## Recent News
+- Our student Clinton Cao got his paper _"Automated Test-Case Generation for REST APIs Using Model Inference Search Heuristic"_ accepted at [AST 2025](https://conf.researchr.org/home/ast-2025#event-overview)!
 - Our student Daniël Vos graduated for his PhD with cum laude! Congratulations Daniël!
 - Our student Clinton Cao got awarded with the Best Demo Award for his tool CATMA at [BNAIC 2024](https://bnaic2024.sites.uu.nl/)!
 - Two papers from our lab (by Robert Baumgartner and Simon Dieck) have been accepted at [CIAA 2024](http://www.math.akita-u.ac.jp/ciaa2024/)!
