@@ -5,7 +5,7 @@ role: phd
 position: PhD Candidate
 social:
 - title: twitter
-  url: https://twitter.com/RobertB82856790
+  url: 
 - title: globe
   url: https://robba.github.io/
 ---
